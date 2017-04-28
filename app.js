@@ -1,16 +1,16 @@
-//Map code
+//Countries' data
 var flagClass = "flag-icon flag-icon-"
 var countriesData = [
     {   
         "id": "VE",
         "showAsSelected": true,
         name: "Venezuela", 
-        year: "1981",
+        year: 1981,
         cities: [
-            { name: "Caja Seca", year: 1981 },
-            { name: "Caracas", year: 1984 },
-            { name: "Turmero", year: 1986 },
-            { name: "Maracay", year: 1986 }
+            { name: "Caja Seca", yearVisited: 1981 },
+            { name: "Caracas", yearVisited: 1984 },
+            { name: "Turmero", yearVisited: 1986 },
+            { name: "Maracay", yearVisited: 1986 }
         ],
         countryCode: flagClass + "ve" 
     },
@@ -20,9 +20,9 @@ var countriesData = [
         name: "Colombia", 
         year: 1981,
         cities: [
-            { name: "Bogota", year: 1981 },
-            { name: "Cartagena", year: 1994 },
-            { name: "Barranquilla", year: 1994 }
+            { name: "Bogota", yearVisited: 1981 },
+            { name: "Cartagena", yearVisited: 1994 },
+            { name: "Barranquilla", yearVisited: 1994 }
         ],
         countryCode: flagClass + "co" 
     },
@@ -30,19 +30,19 @@ var countriesData = [
         "id": "US",
         "showAsSelected": true,
         name: "United States", 
-        year: "1994",
+        year: 1994,
         cities: [
-            { name: "Los Angeles", year: 1994 },
-            { name: "San Diego", year: 1995 },
-            { name: "San Francisco", year: 1998 },
-            { name: "Houston", year: 2000 },
-            { name: "Chicago", year: 2011 },
-            { name: "Seattle", year: 2013 },
-            { name: "New York City", year: 2014 },
-            { name: "Miami", year: 2016 },
-            { name: "Cape Canaveral", year: 2016 },
-            { name: "Austin", year: 2016 },
-            { name: "Dallas", year: 2016 }
+            { name: "Los Angeles", yearVisited: 1994 },
+            { name: "San Diego", yearVisited: 1995 },
+            { name: "San Francisco", yearVisited: 1998 },
+            { name: "Houston", yearVisited: 2000 },
+            { name: "Chicago", yearVisited: 2011 },
+            { name: "Seattle", yearVisited: 2013 },
+            { name: "New York City", yearVisited: 2014 },
+            { name: "Miami", yearVisited: 2016 },
+            { name: "Cape Canaveral", yearVisited: 2016 },
+            { name: "Austin", yearVisited: 2016 },
+            { name: "Dallas", yearVisited: 2016 }
         ],
         countryCode: flagClass + "us" 
     },
@@ -50,13 +50,13 @@ var countriesData = [
         "id": "GB",
         "showAsSelected": true,
         name: "Great Britain", 
-        year: "2002",
+        year: 2002,
         cities: [
-            { name: "London", year: 2002 },
-            { name: "Widsor Castle", year: 2002 },
-            { name: "Bath", year: 2002 },
-            { name: "Stonehenge", year: 2002 },
-            { name: "Bristol", year: 2006 }
+            { name: "London", yearVisited: 2002 },
+            { name: "Widsor Castle", yearVisited: 2002 },
+            { name: "Bath", yearVisited: 2002 },
+            { name: "Stonehenge", yearVisited: 2002 },
+            { name: "Bristol", yearVisited: 2006 }
         ],
         countryCode: flagClass + "gb" 
     },
@@ -64,12 +64,12 @@ var countriesData = [
         "id": "FR",
         "showAsSelected": true,
         name: "France", 
-        year: "2002",
+        year: 2002,
         cities: [
-            { name: "Paris", year: 2002 },
-            { name: "Nice", year: 2006 },
-            { name: "Antibes", year: 2006 },
-            { name: "Cannes", year: 2006 },
+            { name: "Paris", yearVisited: 2002 },
+            { name: "Nice", yearVisited: 2006 },
+            { name: "Antibes", yearVisited: 2006 },
+            { name: "Cannes", yearVisited: 2006 },
         ],
         countryCode: flagClass + "fr"
     },
@@ -77,10 +77,10 @@ var countriesData = [
         "id": "MX",
         "showAsSelected": true,
         name: "Mexico", 
-        year: "2006",
+        year: 2006,
         cities: [
-            { name: "Mazatlan", year: 2006 },
-            { name: "La Ticla", year: 2006 }
+            { name: "Mazatlan", yearVisited: 2006 },
+            { name: "La Ticla", yearVisited: 2006 }
         ],
         countryCode: flagClass + "mx"
     },
@@ -88,21 +88,32 @@ var countriesData = [
         "id": "IT",
         "showAsSelected": true,
         name: "Italy", 
-        year: "2006",
+        year: 2006,
         cities: [
-            { name: "Rome", year: 2006 },
-            { name: "Venice", year: 2006 },
-            { name: "Florence", year: 2006 }
+            { name: "Rome", yearVisited: 2006 },
+            { name: "Venice", yearVisited: 2006 },
+            { name: "Verona", yearVisited: 2006 },
+            { name: "Florence", yearVisited: 2006 }
         ],
         countryCode: flagClass + "it"
     },
-    {   
+    {
+        "id": "VA",
+        "showAsSelected": true,
+        name: "Vatican City", 
+        year: 2006,
+        cities: [
+            { name: "Vatican City", yearVisited: 2006 }
+        ],
+        countryCode: flagClass + "va"
+    },
+    {
         "id": "MC",
         "showAsSelected": true,
         name: "Monaco", 
-        year: "2006",
+        year: 2006,
         cities: [
-            { name: "Monaco", year: 2006 }
+            { name: "Monaco", yearVisited: 2006 }
         ],
         countryCode: flagClass + "mc"
     },
@@ -110,9 +121,9 @@ var countriesData = [
         "id": "NL",
         "showAsSelected": true,
         name: "Netherlands", 
-        year: "2006",
+        year: 2006,
         cities: [
-            { name: "Amsterdam", year: 2006 }, 
+            { name: "Amsterdam", yearVisited: 2006 }, 
         ],
         countryCode: flagClass + "nl"
     },
@@ -120,9 +131,9 @@ var countriesData = [
         "id": "DE",
         "showAsSelected": true,
         name: "Germany", 
-        year: "2006",
+        year: 2006,
         cities: [
-            { name: "Berlin", year: 2006 }, 
+            { name: "Berlin", yearVisited: 2006 }, 
         ],
         countryCode: flagClass + "de" 
     },
@@ -130,14 +141,37 @@ var countriesData = [
         "id": "CA",
         "showAsSelected": true,
         name: "Canada", 
-        year: "2013",
+        year: 2013,
         cities: [
-            { name: "Vancouver", year: 2013 }, 
+            { name: "Vancouver", yearVisited: 2013 }, 
         ],
         countryCode: flagClass + "ca"
     },
+    {   
+        "id": "HR",
+        "showAsSelected": true,
+        name: "Croatia", 
+        year: 2017,
+        cities: [
+            { name: "Split", yearVisited: 2017 },
+            { name: "Dubrovnik", yearVisited: 2017 },
+            { name: "Sinj", yearVisited: 2017 },
+        ],
+        countryCode: flagClass + "hr"
+    },
+    {   
+        "id": "CZ",
+        "showAsSelected": true,
+        name: "Czech Republic", 
+        year: 2017,
+        cities: [
+            { name: "Prague", yearVisited: 2017 },
+        ],
+        countryCode: flagClass + "cz"
+    },
 ]
-
+// add country codes from this list: http://www.nationsonline.org/oneworld/country_code_list.htm
+//Map code
 var map = AmCharts.makeChart("mapdiv", {
     type: "map",
     theme: "dark",
@@ -148,7 +182,6 @@ var map = AmCharts.makeChart("mapdiv", {
     zoomControl: {
         zoomControlEnabled: true
     },
-    // add country codes from this list: http://www.nationsonline.org/oneworld/country_code_list.htm
     dataProvider: {
         map: "worldHigh",
         getAreasFromMap: true,

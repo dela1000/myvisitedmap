@@ -20,12 +20,14 @@
 
 <body ng-controller="countryMapController as countryMap">
     <!-- From https://www.amcharts.com/visited_countries/# -->
+
     <div class="container" ; style="width:80%">
+        <div class="header"> Countries I've visited</div>
         <div id="mapdiv" style="width: auto; height: 850px;"></div>
     </div>
     <div class="container">
-        <div class="col-md-offset-3 col-md-6" style="margin-top: 10px;">
-            <table style="width:100%">
+        <div class="col-md-offset-2 col-md-8" style="margin-top: 10px;">
+            <table style="width:100%;display: table;">
                 <tr>
                     <th>#</th>
                     <th>Flag</th>
@@ -34,7 +36,7 @@
                     <th>Cities</th>
                 </tr>
                 <tr ng-repeat="item in countries">
-                    <td style="vertical-align:top; padding-top:1px">
+                    <td style="vertical-align:top; padding-top:1px; float;left;">
                       {{$index+1}}
                     </td>
                     <td style="vertical-align:top; padding-top:2px">
@@ -49,13 +51,13 @@
                     <td style="vertical-align:top;">
                         <div>
                             <table style="width:100%">
-                                <tr>
+                            <!--     <tr>
                                     <th>City</th>
                                     <th style="float:right">Year</th>
-                                </tr>
+                                </tr> -->
                                 <tr ng-repeat="city in item.cities">
                                     <td>{{city.name}}</td>
-                                    <td style="float:right">{{city.year}}</td>
+                                    <td style="float:right">{{city.yearVisited}}</td>
                                 </tr>
                             </table>
                         </div>
