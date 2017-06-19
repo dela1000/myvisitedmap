@@ -166,8 +166,23 @@ var countriesData = [
         year: 2017,
         cities: [
             { name: "Prague", yearVisited: 2017 },
+            { name: "Plzen", yearVisited: 2017 },
+            { name: "Karlstejn", yearVisited: 2017 },
         ],
         countryCode: flagClass + "cz"
+    },
+    {   
+        "id": "PT",
+        "showAsSelected": true,
+        name: "Portugal", 
+        year: 2017,
+        cities: [
+            { name: "Lisbon", yearVisited: 2017 },
+            { name: "Porto", yearVisited: 2017 },
+            { name: "Benagil", yearVisited: 2017 },
+            { name: "Lagos", yearVisited: 2017 },
+        ],
+        countryCode: flagClass + "pt"
     },
 ]
 // add country codes from this list: http://www.nationsonline.org/oneworld/country_code_list.htm
