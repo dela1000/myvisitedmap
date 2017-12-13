@@ -168,10 +168,114 @@ countriesApp.factory('countriesServices', function($http, $rootScope) {
             year: 2017,
             cities: [
                 { name: "Lisbon", yearVisited: 2017 },
+                { name: "Porto", yearVisited: 2017 },
+                { name: "Benagil", yearVisited: 2017 },
+                { name: "Lagos", yearVisited: 2017 },
             ],
             countryCode: flagClass + "pt"
-        }, ]
-        // add country codes from this list: http://www.nationsonline.org/oneworld/country_code_list.htm
+        }, {
+            "id": "PL",
+            "showAsSelected": true,
+            name: "Poland",
+            year: 2017,
+            cities: [
+                { name: "Krakow", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "PL"
+        }, {
+            "id": "MA",
+            "showAsSelected": true,
+            name: "Morocco",
+            year: 2017,
+            cities: [
+                { name: "Tangier", yearVisited: 2017 },
+                { name: "Fes", yearVisited: 2017 },
+                { name: "Merzouga", yearVisited: 2017 },
+                { name: "Marrakesh", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "MA"
+        }, {
+            "id": "ES",
+            "showAsSelected": true,
+            name: "Spain",
+            year: 2017,
+            cities: [
+                { name: "Barcelona", yearVisited: 2017 },
+                { name: "Pamplona", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "ES"
+        }, {
+            "id": "BG",
+            "showAsSelected": true,
+            name: "Bulgaria",
+            year: 2017,
+            cities: [
+                { name: "Sofia", yearVisited: 2017 },
+                { name: "Plovdiv", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "BG"
+        }, {
+            "id": "IL",
+            "showAsSelected": true,
+            name: "Israel",
+            year: 2017,
+            cities: [
+                { name: "Tel Aviv", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "IL"
+        }, {
+            "id": "VN",
+            "showAsSelected": true,
+            name: "Vietman",
+            year: 2017,
+            cities: [
+                { name: "Hanoi", yearVisited: 2017 },
+                { name: "Ha Long Bay", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "VN"
+        }, {
+            "id": "TH",
+            "showAsSelected": true,
+            name: "Thailand",
+            year: 2017,
+            cities: [
+                { name: "Chiang Mai", yearVisited: 2017 },
+                { name: "Chiang Rai", yearVisited: 2017 },
+                { name: "Pai", yearVisited: 2017 },
+                { name: "Doi Inthanon", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "TH"
+        }, {
+            "id": "JP",
+            "showAsSelected": true,
+            name: "Japan",
+            year: 2017,
+            cities: [
+                { name: "Kyoto", yearVisited: 2017 },
+                { name: "Kobe", yearVisited: 2017 },
+                { name: "Osaka", yearVisited: 2017 },
+                { name: "Tokyo", yearVisited: 2017 },
+                { name: "Hiroshima", yearVisited: 2017 },
+                { name: "Miyajima", yearVisited: 2017 },
+                { name: "Tayoma", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "JP"
+        }, 
+        {
+            "id": "MY",
+            "showAsSelected": true,
+            name: "Malaysia",
+            year: 2017,
+            cities: [
+                { name: "Kuala Lumpur", yearVisited: 2017 },
+                { name: "Panang", yearVisited: 2017 },
+                { name: "Langkawi", yearVisited: 2017 },
+            ],
+            countryCode: flagClass + "MY"
+        }, 
+    ]
+        // add country codes from this list: 
+        // http://www.nationsonline.org/oneworld/country_code_list.htm
 
     return services;
 })
