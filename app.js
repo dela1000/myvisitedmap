@@ -236,8 +236,8 @@ var countriesData = [{
             year: 2017,
             cities: [
                 { name: "Chiang Mai", yearVisited: 2017 },
-                { name: "Chiang Rai", yearVisited: 2017 },
                 { name: "Pai", yearVisited: 2017 },
+                { name: "Chiang Rai", yearVisited: 2017 },
                 { name: "Doi Inthanon", yearVisited: 2017 },
             ],
             countryCode: flagClass + "TH"
@@ -253,7 +253,7 @@ var countriesData = [{
                 { name: "Tokyo", yearVisited: 2017 },
                 { name: "Hiroshima", yearVisited: 2017 },
                 { name: "Miyajima", yearVisited: 2017 },
-                { name: "Tayoma", yearVisited: 2017 },
+                { name: "Toyama", yearVisited: 2017 },
             ],
             countryCode: flagClass + "JP"
         }, 
