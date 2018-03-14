@@ -17,6 +17,7 @@
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
 <script src="app.js" type="text/javascript"> </script>
+<script type="countriesServices.js"></script>
 
 <body ng-controller="countryMapController as countryMap">
     <!-- From https://www.amcharts.com/visited_countries/# -->
@@ -34,29 +35,28 @@
                     <th>First Visit</th>
                     <th>Cities</th>
                 </tr>
-                <tr ng-repeat="item in countries">
+                <tr ng-repeat="country in countries">
                     <td style="vertical-align:top; padding-top:1px; float;left;">
                       {{$index+1}}
                     </td>
                     <td style="vertical-align:top; padding-top:2px">
-                      <span ng-class="item.countryCode"></span>
+                      <span ng-class="country.countryCode"></span>
                     </td>
                     <td style="vertical-align:top; padding-top:1px">
-                      {{item.name}}
+                      {{country.name}}
                     </td>
                     <td style="vertical-align:top; padding-top:1px">
-                      {{item.year}}
+                      {{country.year}}
                     </td>
                     <td style="vertical-align:top;">
                         <div>
                             <table style="width:100%">
-                            <!--     <tr>
-                                    <th>City</th>
-                                    <th style="float:right">Year</th>
-                                </tr> -->
-                                <tr ng-repeat="city in item.cities">
+                                
+                                <tr ng-repeat="city in country.cities">
                                     <td>{{city.name}}</td>
-                                    <td style="float:right">{{city.yearVisited}}</td>
+                                    <td style="float:right"><div ng-repeat=" year in city.yearVisited">
+                                        <span>{{year}}</span>
+                                    </div></td>
                                 </tr>
                             </table>
                         </div>
