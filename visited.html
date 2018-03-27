@@ -14,18 +14,18 @@
 <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
 <!-- Lodash -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
-<!-- Map code -->
+<!-- amCharts Map -->
 <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<!-- App -->
 <script src="app.js" type="text/javascript"> </script>
-<script type="countriesServices.js"></script>
-<script type="cities.json"></script>
+<script src="countriesServices.js"></script>
 
-<body ng-controller="countryMapController as countryMap">
+<body ng-controller="countryMapController">
     <!-- From https://www.amcharts.com/visited_countries/# -->
 <div style="background-color:#ededed">
-    <div class="container" ; style="width:80%;">
+    <div class="container" style="width:80%;">
         <div id="mapdiv" style="width: auto; height: 850px;"></div>
     </div>
     <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
@@ -54,8 +54,7 @@
                     </td>
                     <td style="vertical-align:top;">
                         <div>
-                            <table style="width:100%">
-                                
+                            <table style="width:100%;">
                                 <tr ng-repeat="city in country.cities">
                                     <td>{{city.name}}</td>
                                     <td style="float:right"><div ng-repeat=" year in city.yearVisited">
