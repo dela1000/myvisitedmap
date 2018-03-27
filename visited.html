@@ -12,12 +12,15 @@
 <script src="http://code.angularjs.org/1.6.1/angular.min.js"></script>
 <script src="http://code.angularjs.org/1.2.11/angular-animate.min.js"></script>
 <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
+<!-- Lodash -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
 <!-- Map code -->
 <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
 <script src="app.js" type="text/javascript"> </script>
 <script type="countriesServices.js"></script>
+<script type="cities.json"></script>
 
 <body ng-controller="countryMapController as countryMap">
     <!-- From https://www.amcharts.com/visited_countries/# -->
@@ -25,6 +28,7 @@
     <div class="container" ; style="width:80%;">
         <div id="mapdiv" style="width: auto; height: 850px;"></div>
     </div>
+    <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
     <div class="container">
         <div class="col-md-offset-2 col-md-8" style="margin-top: 10px;">
             <table style="width:100%;display: table;">
