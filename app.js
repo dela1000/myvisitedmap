@@ -3,12 +3,13 @@ var app = angular.module('countriesApp', ['countriesServices'])
 
 app.controller('countryMapController', function($scope, $http, countriesServices) {
 
-    // add country codes from this list: 
-    // http://www.nationsonline.org/oneworld/country_code_list.htm
+    //For Countries Table
+    $scope.countries = countriesServices.countriesData;
+
     //Map code
     var map = AmCharts.makeChart("mapdiv", {
         "type": "map",
-        "theme": "light",
+        "theme": "dark",
 
         "imagesSettings": {
             "rollOverColor": "#089282",
@@ -44,34 +45,21 @@ app.controller('countryMapController', function($scope, $http, countriesServices
         }
     })
 
-    //For ng-repeat
-    $scope.countries = countriesServices.countriesData;
-
-    $scope.cities = [];
-
-    _.forEach(countriesServices.countriesData, (country) => {
-        _.forEach(country.cities, (city) => {
-            $scope.cities.push({
-                name: city.name,
-                latitude: city.latitude,
-                longitude: city.longitude,
-                countryId: country.id
-            })
-        })
-    })
-
     var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
 
-    _.forEach($scope.cities, (cityData) => {
-        var city = new AmCharts.MapImage();
-        city.title = cityData.name;
-        city.latitude = cityData.latitude;
-        city.longitude = cityData.longitude;
-        city.svgPath = targetSVG;
-        city.zoomLevel = 5;
-        city.scale = 0.5;
-        city.chart = map;
-        map.dataProvider.images.push(city);
+    //Add cities to map
+    _.forEach(countriesServices.countriesData, (country) => {
+        _.forEach(country.cities, (cityData) => {
+            var city = new AmCharts.MapImage();
+            city.title = cityData.name;
+            city.latitude = cityData.latitude;
+            city.longitude = cityData.longitude;
+            city.svgPath = targetSVG;
+            city.zoomLevel = 5;
+            city.scale = 0.5;
+            city.chart = map;
+            map.dataProvider.images.push(city);
+        })
     })
 
     //// To get lat longs using Google Maps
@@ -80,7 +68,6 @@ app.controller('countryMapController', function($scope, $http, countriesServices
             _.forEach(country.cities, (city) => {
                 if (!city.latitude || !city.longitude) {
                     let link = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city.name + '&region=' + country.id + '&key=KEY_GOES_HERE'
-
                     $http.get(link)
                         .then((data) => {
                             if (data.data.results.length > 0) {
@@ -88,7 +75,7 @@ app.controller('countryMapController', function($scope, $http, countriesServices
                                 city['longitude'] = data.data.results[0].geometry.location.lng
                             }
                             console.log("city: ", JSON.stringify(city, null, "\t"));
-
+                            //Add lat/lng to countries service.
                         })
                 }
             })

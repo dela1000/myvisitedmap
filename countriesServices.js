@@ -4,6 +4,8 @@ countriesServices.service('countriesServices', function() {
     let services = {};
 
     //Countries' data
+    // add country codes from this list: 
+    // http://www.nationsonline.org/oneworld/country_code_list.htm
     const flagClass = "flag-icon flag-icon-"
 
     services.countriesData = [
