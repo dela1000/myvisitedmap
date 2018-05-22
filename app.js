@@ -1,7 +1,7 @@
 //Angular code for list
-var app = angular.module('countriesApp', ['countriesServices'])
+var app = angular.module('countriesApp', ['countriesServices', 'keyProvider'])
 
-app.controller('countryMapController', function($scope, $http, countriesServices) {
+app.controller('countryMapController', function($scope, $http, countriesServices, keyProvider) {
 
     //For Countries Table
     $scope.countries = countriesServices.countriesData;
@@ -64,10 +64,11 @@ app.controller('countryMapController', function($scope, $http, countriesServices
 
     //// To get lat longs using Google Maps
     $scope.getLatLngData = () => {
+        console.log("+++ 67 app.js keyProvider.googleMapsApiKey: ", keyProvider.googleMapsApiKey)
         _.forEach(countriesServices.countriesData, (country) => {
             _.forEach(country.cities, (city) => {
                 if (!city.latitude || !city.longitude) {
-                    let link = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city.name + '&region=' + country.id + '&key=KEY_GOES_HERE'
+                    let link = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city.name + '&region=' + country.id + '&key=' + keyProvider.googleMapsApiKey
                     $http.get(link)
                         .then((data) => {
                             if (data.data.results.length > 0) {
@@ -81,6 +82,8 @@ app.controller('countryMapController', function($scope, $http, countriesServices
             })
         })
     }
+
+    $scope.getLatLngData();
 
 
 
