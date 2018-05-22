@@ -64,7 +64,6 @@ app.controller('countryMapController', function($scope, $http, countriesServices
 
     //// To get lat longs using Google Maps
     $scope.getLatLngData = () => {
-        console.log("+++ 67 app.js keyProvider.googleMapsApiKey: ", keyProvider.googleMapsApiKey)
         _.forEach(countriesServices.countriesData, (country) => {
             _.forEach(country.cities, (city) => {
                 if (!city.latitude || !city.longitude) {
@@ -82,9 +81,7 @@ app.controller('countryMapController', function($scope, $http, countriesServices
             })
         })
     }
-
+    //Only works after adding a city to the countries services with null lat/long values
     $scope.getLatLngData();
-
-
 
 });

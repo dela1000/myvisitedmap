@@ -511,6 +511,12 @@ countriesServices.service('countriesServices', function() {
                     "latitude": 37.3890924,
                     "longitude": -5.9844589
                 },
+                {
+                    "name": "Malaga",
+                    "yearVisited": [2018],
+                    "latitude": 36.7212737,
+                    "longitude": -4.4213988
+                },
             ],
             "countryCode": flagClass + "ES"
         }, {
@@ -532,9 +538,21 @@ countriesServices.service('countriesServices', function() {
                 },
                 {
                     "name": "Aldomirovtsi",
-                    "yearVisited": [2017],
+                    "yearVisited": [2018],
                     "latitude": 42.8480157,
                     "longitude": 22.9856062
+                },
+                {
+                    "name": "Veliko Tarnovo",
+                    "yearVisited": [2018],
+                    "latitude": 43.0756739,
+                    "longitude": 25.6171514
+                },
+                {
+                    "name": "Tryavna",
+                    "yearVisited": [2018],
+                    "latitude": 42.87665200000001,
+                    "longitude": 25.4988388
                 },
             ],
             "countryCode": flagClass + "BG"
