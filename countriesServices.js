@@ -732,8 +732,25 @@ countriesServices.service('countriesServices', function() {
             ],
             "countryCode": flagClass + "PE"
         },
+        {
+            "id": "GR",
+            "showAsSelected": true,
+            "name": "Greece",
+            "year": 2018,
+            "cities": [{
+                    "name": "Athens",
+                    "yearVisited": [2018],
+                    "latitude": 37.9838096,
+                    "longitude": 23.7275388
+                },
+            ],
+            "countryCode": flagClass + "GR"
+        },
     ]
 
+    //Countries' data
+    // add country codes from this list: 
+    // http://www.nationsonline.org/oneworld/country_code_list.htm
 
     return services;
 })

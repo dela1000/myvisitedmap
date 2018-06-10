@@ -74,7 +74,7 @@ app.controller('countryMapController', function($scope, $http, countriesServices
                                 city['latitude'] = data.data.results[0].geometry.location.lat
                                 city['longitude'] = data.data.results[0].geometry.location.lng
                             }
-                            console.log("city: ", JSON.stringify(city, null, "\t"));
+                            console.log("+++ app.js - city lat/lng: ", JSON.stringify(city, null, "\t"));
                             //Add lat/lng to countries service.
                         })
                 }
