@@ -746,6 +746,20 @@ countriesServices.service('countriesServices', function() {
             ],
             "countryCode": flagClass + "GR"
         },
+        {
+            "id": "RS",
+            "showAsSelected": true,
+            "name": "Serbia",
+            "year": 2018,
+            "cities": [{
+                    "name": "Belgrade",
+                    "yearVisited": [2018],
+                    "latitude": 44.786568,
+                    "longitude": 20.4489216
+                },
+            ],
+            "countryCode": flagClass + "RS"
+        },
     ]
 
     //Countries' data
