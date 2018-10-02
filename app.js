@@ -71,7 +71,6 @@ app.controller('countryMapController', function($scope, $http, countriesServices
                     console.log("+++ 71 app.js link: ", link)
                     $http.get(link)
                         .then((data) => {
-                            console.log("+++ 73 app.js data.data.results: ", data.data.results)
                             if (data.data.results.length > 0) {
                                 city['latitude'] = data.data.results[0].geometry.location.lat
                                 city['longitude'] = data.data.results[0].geometry.location.lng

@@ -350,7 +350,20 @@ countriesServices.service('countriesServices', function() {
                 "yearVisited": [2006],
                 "latitude": 52.52000659999999,
                 "longitude": 13.404954
-            }, ],
+            },
+            {
+                "name": "Frankfurt",
+                "yearVisited": [2018],
+                "latitude": 50.1109221,
+                "longitude": 8.6821267
+            },
+            {
+                "name": "Mainz",
+                "yearVisited": [2018],
+                "latitude": 49.9928617,
+                "longitude": 8.2472526
+            },
+            ],
             "countryCode": flagClass + "DE"
         }, {
             "id": "CA",
@@ -516,6 +529,18 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2018],
                     "latitude": 36.7212737,
                     "longitude": -4.4213988
+                },
+                {
+                    "name": "Valencia",
+                    "yearVisited": [2018],
+                    "latitude": 39.4699075,
+                    "longitude": -0.3762881
+                },
+                {
+                    "name": "Bunol",
+                    "yearVisited": [2018],
+                    "latitude": 39.4203436,
+                    "longitude": -0.7901334
                 },
             ],
             "countryCode": flagClass + "ES"
@@ -743,6 +768,12 @@ countriesServices.service('countriesServices', function() {
                     "latitude": 37.9838096,
                     "longitude": 23.7275388
                 },
+                {
+                    "name": "Agistri",
+                    "yearVisited": [2018],
+                    "latitude": 37.6890809,
+                    "longitude": 23.3406758
+                },
             ],
             "countryCode": flagClass + "GR"
         },
@@ -757,8 +788,28 @@ countriesServices.service('countriesServices', function() {
                     "latitude": 44.786568,
                     "longitude": 20.4489216
                 },
+                {
+                    "name": "Novi Sad",
+                    "yearVisited": [2018],
+                    "latitude": 45.2671352,
+                    "longitude": 19.8335496
+                },
             ],
             "countryCode": flagClass + "RS"
+        },
+        {
+            "id": "RO",
+            "showAsSelected": true,
+            "name": "Romania",
+            "year": 2018,
+            "cities": [{
+                    "name": "Bucharest",
+                    "yearVisited": [2018],
+                    "latitude": 44.4267674,
+                    "longitude": 26.1025384
+                },
+            ],
+            "countryCode": flagClass + "RO"
         },
     ]
 
