@@ -66,11 +66,12 @@ app.controller('countryMapController', function($scope, $http, countriesServices
     $scope.getLatLngData = () => {
         _.forEach(countriesServices.countriesData, (country) => {
             _.forEach(country.cities, (city) => {
-                if (!city.latitude || !city.longitude) {
+                if (city.latitude == null || city.longitude == null) {
                     let link = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city.name + '&region=' + country.id + '&key=' + keyProvider.googleMapsApiKey
                     console.log("+++ 71 app.js link: ", link)
                     $http.get(link)
                         .then((data) => {
+                            console.log("+++ 74 app.js data: ", data)
                             if (data.data.results.length > 0) {
                                 city['latitude'] = data.data.results[0].geometry.location.lat
                                 city['longitude'] = data.data.results[0].geometry.location.lng

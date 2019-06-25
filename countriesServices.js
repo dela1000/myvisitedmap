@@ -187,7 +187,7 @@ countriesServices.service('countriesServices', function() {
             "year": 2002,
             "cities": [{
                     "name": "London",
-                    "yearVisited": [2002],
+                    "yearVisited": [2002, 2018],
                     "latitude": 51.5073509,
                     "longitude": -0.1277583
                 },
@@ -211,7 +211,7 @@ countriesServices.service('countriesServices', function() {
                 },
                 {
                     "name": "Bristol",
-                    "yearVisited": [2006],
+                    "yearVisited": [2006, 2018],
                     "latitude": 51.454513,
                     "longitude": -2.58791
                 }
@@ -245,6 +245,12 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2006],
                     "latitude": 43.552847,
                     "longitude": 7.017369
+                },
+                {
+                    "name": "Annecy",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
                 },
             ],
             "countryCode": flagClass + "FR"
@@ -280,7 +286,7 @@ countriesServices.service('countriesServices', function() {
             "year": 2006,
             "cities": [{
                     "name": "Rome",
-                    "yearVisited": [2006],
+                    "yearVisited": [2006, 2019],
                     "latitude": 41.9027835,
                     "longitude": 12.4963655
                 },
@@ -301,6 +307,18 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2006],
                     "latitude": 43.7695604,
                     "longitude": 11.2558136
+                },
+                {
+                    "name": "Naples",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Pompeii",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
                 }
             ],
             "countryCode": flagClass + "IT"
@@ -400,6 +418,12 @@ countriesServices.service('countriesServices', function() {
                     "latitude": 43.702943,
                     "longitude": 16.6375286
                 },
+                {
+                    "name": "Zagreb",
+                    "yearVisited": [2019],
+                    "latitude": 45.8150108,
+                    "longitude": 15.9819189
+                },
             ],
             "countryCode": flagClass + "HR"
         }, {
@@ -409,7 +433,7 @@ countriesServices.service('countriesServices', function() {
             "year": 2017,
             "cities": [{
                     "name": "Prague",
-                    "yearVisited": [2017],
+                    "yearVisited": [2017, 2018],
                     "latitude": 50.0755381,
                     "longitude": 14.4378005
                 },
@@ -425,6 +449,13 @@ countriesServices.service('countriesServices', function() {
                     "latitude": 49.9395043,
                     "longitude": 14.1880461
                 },
+                {
+                    "name": "Kutna Hora",
+                    "yearVisited": [2017],
+                    "latitude": null,
+                    "longitude": null
+                },
+                
             ],
             "countryCode": flagClass + "CZ"
         }, {
@@ -525,14 +556,14 @@ countriesServices.service('countriesServices', function() {
                     "longitude": -5.9844589
                 },
                 {
-                    "name": "Malaga",
+                    "name": "Granada",
                     "yearVisited": [2018],
-                    "latitude": 36.7212737,
-                    "longitude": -4.4213988
+                    "latitude": 37.1773363,
+                    "longitude": -3.5985571
                 },
                 {
                     "name": "Valencia",
-                    "yearVisited": [2018],
+                    "yearVisited": [2018, 2019],
                     "latitude": 39.4699075,
                     "longitude": -0.3762881
                 },
@@ -551,13 +582,13 @@ countriesServices.service('countriesServices', function() {
             "year": 2017,
             "cities": [{
                     "name": "Sofia",
-                    "yearVisited": [2017],
+                    "yearVisited": [2017, 2018],
                     "latitude": 42.6977082,
                     "longitude": 23.3218675
                 },
                 {
                     "name": "Plovdiv",
-                    "yearVisited": [2017],
+                    "yearVisited": [2017, 2018],
                     "latitude": 42.1354079,
                     "longitude": 24.7452904
                 },
@@ -774,6 +805,12 @@ countriesServices.service('countriesServices', function() {
                     "latitude": 37.6890809,
                     "longitude": 23.3406758
                 },
+                {
+                    "name": "Delphi",
+                    "yearVisited": [2018],
+                    "latitude": 38.4823868,
+                    "longitude": 22.5009699
+                },
             ],
             "countryCode": flagClass + "GR"
         },
@@ -804,12 +841,106 @@ countriesServices.service('countriesServices', function() {
             "year": 2018,
             "cities": [{
                     "name": "Bucharest",
-                    "yearVisited": [2018],
+                    "yearVisited": [2018, 2019],
                     "latitude": 44.4267674,
                     "longitude": 26.1025384
                 },
+                {
+                    "name": "Sighisoara",
+                    "yearVisited": [2018],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Cluj",
+                    "yearVisited": [2018],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Alba Iulia",
+                    "yearVisited": [2018],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Sibiu",
+                    "yearVisited": [2018],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Bran",
+                    "yearVisited": [2018, 2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Brasov",
+                    "yearVisited": [2018, 2019],
+                    "latitude": null,
+                    "longitude": null
+                },
             ],
             "countryCode": flagClass + "RO"
+        },
+        {
+            "id": "EG",
+            "showAsSelected": true,
+            "name": "Egypt",
+            "year": 2019,
+            "cities": [{
+                    "name": "Giza",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Saqqara",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Memphis",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Cairo",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+            ],
+            "countryCode": flagClass + "EG"
+        },
+        {
+            "id": "IE",
+            "showAsSelected": true,
+            "name": "Ireland",
+            "year": 2019,
+            "cities": [{
+                    "name": "Dublin",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Cork",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+                {
+                    "name": "Galway",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+            ],
+            "countryCode": flagClass + "IE"
         },
     ]
 
