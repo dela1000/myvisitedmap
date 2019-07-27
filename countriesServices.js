@@ -47,7 +47,7 @@ countriesServices.service('countriesServices', function() {
             "year": 1981,
             "cities": [{
                     "name": "Bogota",
-                    "yearVisited": [1981],
+                    "yearVisited": [1981, 2006, 2018],
                     "latitude": 4.710988599999999,
                     "longitude": -74.072092
                 },
@@ -465,7 +465,7 @@ countriesServices.service('countriesServices', function() {
             "year": 2017,
             "cities": [{
                     "name": "Lisbon",
-                    "yearVisited": [2017],
+                    "yearVisited": [2017, 2018],
                     "latitude": 38.7222524,
                     "longitude": -9.1393366
                 },
@@ -526,9 +526,15 @@ countriesServices.service('countriesServices', function() {
                 },
                 {
                     "name": "Marrakesh",
-                    "yearVisited": [2017],
+                    "yearVisited": [2017, 2019],
                     "latitude": 31.6294723,
                     "longitude": -7.981084500000001
+                },
+                {
+                    "name": "Essaouira",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
                 },
             ],
             "countryCode": flagClass + "MA"
@@ -941,6 +947,20 @@ countriesServices.service('countriesServices', function() {
                 },
             ],
             "countryCode": flagClass + "IE"
+        },
+        {
+            "id": "BA",
+            "showAsSelected": true,
+            "name": "Bosnia and Herzegovina",
+            "year": 2019,
+            "cities": [{
+                    "name": "Sarajevo",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+            ],
+            "countryCode": flagClass + "BA"
         },
     ]
 

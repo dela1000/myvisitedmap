@@ -58,9 +58,11 @@
                             <table style="width:100%;">
                                 <tr ng-repeat="city in country.cities">
                                     <td>{{city.name}}</td>
-                                    <td style="float:right"><div ng-repeat=" year in city.yearVisited">
-                                        <span>{{year}}</span>
-                                    </div></td>
+                                    <td style="float:right">
+                                        <span ng-repeat=" year in city.yearVisited">
+                                            <span style="float:left; margin-right: 10px">{{year}}</span>
+                                        </span>
+                                    </td>
                                 </tr>
                             </table>
                         </div>
