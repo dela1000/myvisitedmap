@@ -52,8 +52,10 @@ app.controller('countryMapController', function($scope, $http, countriesServices
         _.forEach(country.cities, (cityData) => {
             var city = new AmCharts.MapImage();
             city.title = cityData.name;
-            city.latitude = cityData.latitude;
-            city.longitude = cityData.longitude;
+            if(cityData.latitude){
+                city.latitude = cityData.latitude;
+                city.longitude = cityData.longitude;
+            }
             city.svgPath = targetSVG;
             city.zoomLevel = 5;
             city.scale = 0.5;

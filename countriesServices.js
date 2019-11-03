@@ -381,6 +381,12 @@ countriesServices.service('countriesServices', function() {
                 "latitude": 49.9928617,
                 "longitude": 8.2472526
             },
+            {
+                "name": "Munich",
+                "yearVisited": [2019],
+                "latitude": null,
+                "longitude": null
+            },
             ],
             "countryCode": flagClass + "DE"
         }, {
@@ -408,7 +414,7 @@ countriesServices.service('countriesServices', function() {
                 },
                 {
                     "name": "Dubrovnik",
-                    "yearVisited": [2017],
+                    "yearVisited": [2017, 2019],
                     "latitude": 42.65066059999999,
                     "longitude": 18.0944238
                 },
@@ -961,6 +967,34 @@ countriesServices.service('countriesServices', function() {
                 },
             ],
             "countryCode": flagClass + "BA"
+        },
+        {
+            "id": "AT",
+            "showAsSelected": true,
+            "name": "Austria",
+            "year": 2019,
+            "cities": [{
+                    "name": "Vienna",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+            ],
+            "countryCode": flagClass + "AT"
+        },
+        {
+            "id": "ZA",
+            "showAsSelected": true,
+            "name": "South Africa",
+            "year": 2019,
+            "cities": [{
+                    "name": "Cape Town",
+                    "yearVisited": [2019],
+                    "latitude": null,
+                    "longitude": null
+                },
+            ],
+            "countryCode": flagClass + "ZA"
         },
     ]
 
