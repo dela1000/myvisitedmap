@@ -80,7 +80,13 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2006, 2018],
                     "latitude": 5.021476,
                     "longitude": -73.990955
-                }
+                },
+                {
+                    "name": "Manta",
+                    "yearVisited": [2018],
+                    "latitude": 5.008804,
+                    "longitude": -73.541383,
+                },
             ],
             "countryCode": flagClass + "CO"
         }, {
@@ -131,6 +137,24 @@ countriesServices.service('countriesServices', function() {
                     "longitude": -118.972079
                 },
                 {
+                    "name": "Memphis",
+                    "yearVisited": [2007],
+                    "latitude": 35.1495343,
+                    "longitude": -90.0489801,
+                },
+                {
+                    "name": "Nashville",
+                    "yearVisited": [2007],
+                    "latitude": 36.1626638,
+                    "longitude": -86.7816016,
+                },
+                {
+                    "name": "Lynchburg",
+                    "yearVisited": [2007],
+                    "latitude": 35.2830242,
+                    "longitude": -86.3740205,
+                },
+                {
                     "name": "Chicago",
                     "yearVisited": [2011],
                     "latitude": 41.8781136,
@@ -144,7 +168,7 @@ countriesServices.service('countriesServices', function() {
                 },
                 {
                     "name": "New York City",
-                    "yearVisited": [2014],
+                    "yearVisited": [2014, 2017],
                     "latitude": 40.7127753,
                     "longitude": -74.0059728
                 },
@@ -288,6 +312,18 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2021],
                     "latitude": 17.0731842,
                     "longitude": -96.7265889,
+                },
+                {
+                    "name": "Playa del Carmen",
+                    "yearVisited": [2021],
+                    "latitude": 20.6295586,
+                    "longitude": -87.0738851,
+                },
+                {
+                    "name": "Merida",
+                    "yearVisited": [2021],
+                    "latitude": 20.9673702,
+                    "longitude": -89.5925857,
                 },
             ],
             "countryCode": flagClass + "MX"
@@ -928,8 +964,8 @@ countriesServices.service('countriesServices', function() {
                 {
                     "name": "Memphis",
                     "yearVisited": [2019],
-                    "latitude": 35.1495343,
-                    "longitude": -90.0489801,
+                    "latitude": 29.849533,
+                    "longitude": 31.254126,
                 },
                 {
                     "name": "Cairo",
@@ -965,7 +1001,7 @@ countriesServices.service('countriesServices', function() {
                 },
                 {
                     "name": "Sixmilebridge",
-                    "yearVisited": [2019],
+                    "yearVisited": [2020],
                     "latitude": 52.7436246,
                     "longitude": -8.777650399999999,
                 },
@@ -982,6 +1018,12 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2019],
                     "latitude": 43.8562586,
                     "longitude": 18.4130763,
+                },
+                {
+                    "name": "Mostar",
+                    "yearVisited": [2019],
+                    "latitude": 43.34377480000001,
+                    "longitude": 17.8077578,
                 },
             ],
             "countryCode": flagClass + "BA"
@@ -1010,6 +1052,12 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2019],
                     "latitude": -33.9248685,
                     "longitude": 18.4240553,
+                },
+                {
+                    "name": "Manyeleti",
+                    "yearVisited": [2019],
+                    "latitude": -24.6479532,
+                    "longitude": 31.5262986,
                 },
             ],
             "countryCode": flagClass + "ZA"
