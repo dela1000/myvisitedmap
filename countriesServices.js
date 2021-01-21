@@ -249,8 +249,8 @@ countriesServices.service('countriesServices', function() {
                 {
                     "name": "Annecy",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 45.899247,
+                    "longitude": 6.129384,
                 },
             ],
             "countryCode": flagClass + "FR"
@@ -276,7 +276,19 @@ countriesServices.service('countriesServices', function() {
                     "yearVisited": [2006],
                     "latitude": 32.3661011,
                     "longitude": -117.0617553
-                }
+                },
+                {
+                    "name": "Mexico City",
+                    "yearVisited": [2020, 2021],
+                    "latitude": 19.4326077,
+                    "longitude": -99.133208,
+                },
+                {
+                    "name": "Oaxaca",
+                    "yearVisited": [2021],
+                    "latitude": 17.0731842,
+                    "longitude": -96.7265889,
+                },
             ],
             "countryCode": flagClass + "MX"
         }, {
@@ -286,7 +298,7 @@ countriesServices.service('countriesServices', function() {
             "year": 2006,
             "cities": [{
                     "name": "Rome",
-                    "yearVisited": [2006, 2019],
+                    "yearVisited": [2006, 2019, 2020],
                     "latitude": 41.9027835,
                     "longitude": 12.4963655
                 },
@@ -311,14 +323,14 @@ countriesServices.service('countriesServices', function() {
                 {
                     "name": "Naples",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 40.8517983,
+                    "longitude": 14.26812,
                 },
                 {
                     "name": "Pompeii",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 40.7461572,
+                    "longitude": 14.4989344,
                 }
             ],
             "countryCode": flagClass + "IT"
@@ -384,8 +396,8 @@ countriesServices.service('countriesServices', function() {
             {
                 "name": "Munich",
                 "yearVisited": [2019],
-                "latitude": null,
-                "longitude": null
+                "latitude": 48.1351253,
+                "longitude": 11.5819805,
             },
             ],
             "countryCode": flagClass + "DE"
@@ -458,8 +470,8 @@ countriesServices.service('countriesServices', function() {
                 {
                     "name": "Kutna Hora",
                     "yearVisited": [2017],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 49.95243139999999,
+                    "longitude": 15.2686536,
                 },
                 
             ],
@@ -539,8 +551,8 @@ countriesServices.service('countriesServices', function() {
                 {
                     "name": "Essaouira",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 31.5084926,
+                    "longitude": -9.7595041,
                 },
             ],
             "countryCode": flagClass + "MA"
@@ -860,38 +872,38 @@ countriesServices.service('countriesServices', function() {
                 {
                     "name": "Sighisoara",
                     "yearVisited": [2018],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 46.2197025,
+                    "longitude": 24.7963878,
                 },
                 {
                     "name": "Cluj",
                     "yearVisited": [2018],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 46.7712101,
+                    "longitude": 23.6236353
                 },
                 {
                     "name": "Alba Iulia",
                     "yearVisited": [2018],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 46.07327249999999,
+                    "longitude": 23.5804886,
                 },
                 {
                     "name": "Sibiu",
                     "yearVisited": [2018],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 45.7935607,
+                    "longitude": 24.1212945,
                 },
                 {
                     "name": "Bran",
                     "yearVisited": [2018, 2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 45.51919179999999,
+                    "longitude": 25.3696831,
                 },
                 {
                     "name": "Brasov",
                     "yearVisited": [2018, 2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 45.6426802,
+                    "longitude": 25.5887252,
                 },
             ],
             "countryCode": flagClass + "RO"
@@ -904,26 +916,26 @@ countriesServices.service('countriesServices', function() {
             "cities": [{
                     "name": "Giza",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 30.0130557,
+                    "longitude": 31.2088526,
                 },
                 {
                     "name": "Saqqara",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 29.8760704,
+                    "longitude": 31.2102537,
                 },
                 {
                     "name": "Memphis",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 35.1495343,
+                    "longitude": -90.0489801,
                 },
                 {
                     "name": "Cairo",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 30.0444196,
+                    "longitude": 31.2357116,
                 },
             ],
             "countryCode": flagClass + "EG"
@@ -935,21 +947,27 @@ countriesServices.service('countriesServices', function() {
             "year": 2019,
             "cities": [{
                     "name": "Dublin",
-                    "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "yearVisited": [2019, 2020],
+                    "latitude": 53.3498053,
+                    "longitude": -6.2603097,
                 },
                 {
                     "name": "Cork",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 51.8985143,
+                    "longitude": -8.4756035,
                 },
                 {
                     "name": "Galway",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 53.270668,
+                    "longitude": -9.0567905,
+                },
+                {
+                    "name": "Sixmilebridge",
+                    "yearVisited": [2019],
+                    "latitude": 52.7436246,
+                    "longitude": -8.777650399999999,
                 },
             ],
             "countryCode": flagClass + "IE"
@@ -962,8 +980,8 @@ countriesServices.service('countriesServices', function() {
             "cities": [{
                     "name": "Sarajevo",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 43.8562586,
+                    "longitude": 18.4130763,
                 },
             ],
             "countryCode": flagClass + "BA"
@@ -976,8 +994,8 @@ countriesServices.service('countriesServices', function() {
             "cities": [{
                     "name": "Vienna",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": 48.2081743,
+                    "longitude": 16.3738189,
                 },
             ],
             "countryCode": flagClass + "AT"
@@ -990,11 +1008,25 @@ countriesServices.service('countriesServices', function() {
             "cities": [{
                     "name": "Cape Town",
                     "yearVisited": [2019],
-                    "latitude": null,
-                    "longitude": null
+                    "latitude": -33.9248685,
+                    "longitude": 18.4240553,
                 },
             ],
             "countryCode": flagClass + "ZA"
+        },
+        {
+            "id": "GE",
+            "showAsSelected": true,
+            "name": "Georgia",
+            "year": 2020,
+            "cities": [{
+                    "name": "T'bilisi",
+                    "yearVisited": [2020],
+                    "latitude": 41.7151377,
+                    "longitude": 44.827096,
+                },
+            ],
+            "countryCode": flagClass + "GE"
         },
     ]
 
