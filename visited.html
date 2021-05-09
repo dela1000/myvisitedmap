@@ -26,15 +26,13 @@
 <body ng-controller="countryMapController">
     <!-- From https://www.amcharts.com/visited_countries/# -->
   <div class="pb-5" style="background-color:#ededed;">
-    <div class="container" style="width:80%;">
+    <div class="container pb-5" style="width:80%;">
       <div id="mapdiv" style="width: auto; height: 850px;"></div>
-    </div>
-    <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
-    <div class="container ">
       <div class="row mt-4 fw-bold">
         <div class="col">
+          <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
           <div class="d-grid">
-            <button type="button" class="btn  btn-outline-secondary" ng-click="switchData()">{{listName}}</button>
+            <button type="button" class="btn btn-outline-secondary" ng-click="switchData()">{{listName}}</button>
           </div>
         </div>
         <div class="col">#</div>
@@ -46,7 +44,7 @@
       <div class="row" ng-repeat="country in countries" ng-show="country.name">
         <div class="col"></div>
         <div class="col">{{$index+1}}</div>
-        <div class="col"><span ng-class="country.countryCode"></span></div>
+        <div class="col"><span ng-class="country.countryCode"/></div>
         <div class="col-3">{{country.name}}</div>
         <div class="col">{{country.year}}</div>
         <div class="col-5">
