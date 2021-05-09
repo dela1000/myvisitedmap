@@ -9,7 +9,7 @@
 <!-- flag icons -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.7.0/css/flag-icon.css">
 <!-- Angular -->
-<script src="http://code.angularjs.org/1.6.1/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 <script src="http://code.angularjs.org/1.2.11/angular-animate.min.js"></script>
 <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
 <!-- Lodash -->
@@ -31,13 +31,15 @@
     </div>
     <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
     <div class="container ">
-      <div class="row mt-4">
+      <div class="row mt-4 fw-bold">
         <div class="col">
-          <button ng-click="switchData()">Switch</button>
+          <div class="d-grid">
+            <button type="button" class="btn  btn-outline-secondary" ng-click="switchData()">{{listName}}</button>
+          </div>
         </div>
         <div class="col">#</div>
         <div class="col">Flag</div>
-        <div class="col">Country</div>
+        <div class="col-3">Country</div>
         <div class="col">First Visit</div>
         <div class="col-5">Cities</div>
       </div>
@@ -45,7 +47,7 @@
         <div class="col"></div>
         <div class="col">{{$index+1}}</div>
         <div class="col"><span ng-class="country.countryCode"></span></div>
-        <div class="col">{{country.name}}</div>
+        <div class="col-3">{{country.name}}</div>
         <div class="col">{{country.year}}</div>
         <div class="col-5">
           <div class="row" ng-repeat="city in country.cities">

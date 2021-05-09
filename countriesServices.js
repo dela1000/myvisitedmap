@@ -4,7 +4,7 @@ countriesServices.service('countriesServices', function() {
   let services = {};
 
   //Countries' data
-  // add country codes from this list: 
+  // add country codes from this list:
   // http://www.nationsonline.org/oneworld/country_code_list.htm
   const flagClass = "flag-icon flag-icon-"
 
@@ -1075,7 +1075,28 @@ countriesServices.service('countriesServices', function() {
     },
   ]
 
-  services.rndData = [{
+  services.rndData = [
+    {
+      "id": "MA",
+      "showAsSelected": true,
+      "name": "Morocco",
+      "year": 2019,
+      "cities": [
+        {
+          "name": "Marrakesh",
+          "yearVisited": [2019],
+          "latitude": 31.6294723,
+          "longitude": -7.981084500000001
+        },
+        {
+          "name": "Essaouira",
+          "yearVisited": [2019],
+          "latitude": 31.5084926,
+          "longitude": -9.7595041,
+        },
+      ],
+      "countryCode": flagClass + "MA"
+    }, {
       "id": "BA",
       "showAsSelected": true,
       "name": "Bosnia and Herzegovina",
@@ -1127,11 +1148,32 @@ countriesServices.service('countriesServices', function() {
         },
       ],
       "countryCode": flagClass + "ZA"
-    }, {
+    },
+    {
+      "id": "IE",
+      "showAsSelected": true,
+      "name": "Ireland",
+      "year": 2019,
+      "cities": [
+        {
+          "name": "Sixmilebridge",
+          "yearVisited": [2019],
+          "latitude": 52.7436246,
+          "longitude": -8.777650399999999,
+        },
+        {
+          "name": "Dublin",
+          "yearVisited": [2020],
+          "latitude": 53.3498053,
+          "longitude": -6.2603097,
+        },
+      ],
+      "countryCode": flagClass + "IE"
+    },{
       "id": "IT",
       "showAsSelected": true,
       "name": "Italy",
-      "year": 2006,
+      "year": 2020,
       "cities": [{
           "name": "Rome",
           "yearVisited": [2020],
@@ -1163,7 +1205,7 @@ countriesServices.service('countriesServices', function() {
       "id": "US",
       "showAsSelected": true,
       "name": "United States",
-      "year": 1994,
+      "year": 2020,
       "cities": [{
           "name": "Los Angeles",
           "yearVisited": [2020],
@@ -1177,7 +1219,7 @@ countriesServices.service('countriesServices', function() {
       "id": "MX",
       "showAsSelected": true,
       "name": "Mexico",
-      "year": 2006,
+      "year": 2020,
       "cities": [{
           "name": "Mexico City",
           "yearVisited": [2020, 2021],
@@ -1208,7 +1250,7 @@ countriesServices.service('countriesServices', function() {
   ]
 
   //Countries' data
-  // add country codes from this list: 
+  // add country codes from this list:
   // http://www.nationsonline.org/oneworld/country_code_list.htm
 
   return services;
