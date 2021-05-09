@@ -5,7 +5,7 @@
     <title>Countries Visited</title>
 </head>
 <!-- Latest Bootstrap compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 <!-- flag icons -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.7.0/css/flag-icon.css">
 <!-- Angular -->
@@ -25,54 +25,41 @@
 
 <body ng-controller="countryMapController">
     <!-- From https://www.amcharts.com/visited_countries/# -->
-<div style="background-color:#ededed">
+  <div class="pb-5" style="background-color:#ededed;">
     <div class="container" style="width:80%;">
-        <div id="mapdiv" style="width: auto; height: 850px;"></div>
+      <div id="mapdiv" style="width: auto; height: 850px;"></div>
     </div>
     <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
-    <div class="container">
-        <div class="col-md-offset-2 col-md-8" style="margin-top: 10px;">
-            <table style="width:100%;display: table;">
-                <tr>
-                    <th>#</th>
-                    <th>Flag</th>
-                    <th>Country</th>
-                    <th>First Visit</th>
-                    <th>Cities</th>
-                </tr>
-                <tr ng-repeat="country in countries">
-                    <td style="vertical-align:top; padding-top:1px; float;left;">
-                      {{$index+1}}
-                    </td>
-                    <td style="vertical-align:top; padding-top:2px">
-                      <span ng-class="country.countryCode"></span>
-                    </td>
-                    <td style="vertical-align:top; padding-top:1px">
-                      {{country.name}}
-                    </td>
-                    <td style="vertical-align:top; padding-top:1px">
-                      {{country.year}}
-                    </td>
-                    <td style="vertical-align:top;">
-                        <div>
-                            <table style="width:100%;">
-                                <tr ng-repeat="city in country.cities">
-                                    <td>{{city.name}}</td>
-                                    <td style="float:right">
-                                        <span ng-repeat=" year in city.yearVisited">
-                                            <span style="float:left; margin-right: 10px">{{year}}</span>
-                                        </span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+    <div class="container ">
+      <div class="row mt-4">
+        <div class="col">
+          <button ng-click="switchData()">Switch</button>
         </div>
+        <div class="col">#</div>
+        <div class="col">Flag</div>
+        <div class="col">Country</div>
+        <div class="col">First Visit</div>
+        <div class="col-5">Cities</div>
+      </div>
+      <div class="row" ng-repeat="country in countries" ng-show="country.name">
+        <div class="col"></div>
+        <div class="col">{{$index+1}}</div>
+        <div class="col"><span ng-class="country.countryCode"></span></div>
+        <div class="col">{{country.name}}</div>
+        <div class="col">{{country.year}}</div>
+        <div class="col-5">
+          <div class="row" ng-repeat="city in country.cities">
+            <div class="col">{{city.name}}</div>
+            <div class="col">
+              <span ng-repeat=" year in city.yearVisited">
+                <span style="float:left; margin-right: 10px">{{year}}</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style="height:100px;"></div>
-</div>
+  </div>
 </body>
 
 </html>
