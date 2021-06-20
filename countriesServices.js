@@ -118,6 +118,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -115.1398296
         },
         {
+          "name": "Palm Springs",
+          "yearVisited": [1995],
+          "latitude": 33.8302961,
+          "longitude": -116.5452921,
+        },
+        {
           "name": "San Francisco",
           "yearVisited": [1998],
           "latitude": 37.7749295,
@@ -200,7 +206,7 @@ countriesServices.service('countriesServices', function() {
           "yearVisited": [2017],
           "latitude": 35.5950581,
           "longitude": -82.5514869
-        }
+        },
       ],
       "countryCode": flagClass + "US"
     }, {
