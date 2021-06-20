@@ -3,7 +3,21 @@ let app = angular.module('countriesApp', ['countriesServices', 'keyProvider']);
 
 app.controller('countryMapController', function($scope, $http, countriesServices, keyProvider) {
   let dSelected;
-  let map;
+
+    //For Countries Table
+  $scope.switchData = () => {
+    if(dSelected === true){
+      $scope.countries = countriesServices.rndData;
+      $scope.listName = "RnD";
+      dSelected = false;
+    } else {
+      $scope.countries = countriesServices.dsData;
+      $scope.listName = "Daniel";
+      dSelected = true;
+    }
+    createMap($scope.countries)
+  }
+
   createMap = dataSelected => {
 
     let targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
@@ -29,7 +43,7 @@ app.controller('countryMapController', function($scope, $http, countriesServices
     })
 
     //Map code
-    map = AmCharts.makeChart("mapdiv", {
+    let map = AmCharts.makeChart("mapdiv", {
       "type": "map",
       "theme": "dark",
 
@@ -84,20 +98,7 @@ app.controller('countryMapController', function($scope, $http, countriesServices
     })
   }
 
-  //For Countries Table
-  $scope.switchData = () => {
-    if(dSelected === true){
-      $scope.countries = countriesServices.rndData;
-      $scope.listName = "RnD";
-      dSelected = false;
-    } else {
-      $scope.countries = countriesServices.dsData;
-      $scope.listName = "Daniel";
-      dSelected = true;
-    }
-    createMap($scope.countries)
-  }
-
+  // Switch between Daniel and RnD
   $scope.switchData();
   //Only works after adding a city to the countries services with null lat/long values
   $scope.getLatLngData();
