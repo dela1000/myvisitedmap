@@ -13,6 +13,7 @@ countriesServices.service('countriesServices', function() {
       "showAsSelected": true,
       "name": "Venezuela",
       "year": 1981,
+      "countryCode": flagClass + "ve",
       "cities": [{
           "name": "Caja Seca",
           "yearVisited": [1981],
@@ -38,12 +39,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -67.60661640000001
         }
       ],
-      "countryCode": flagClass + "ve"
     }, {
       "id": "CO",
       "showAsSelected": true,
       "name": "Colombia",
       "year": 1981,
+      "countryCode": flagClass + "CO",
       "cities": [{
           "name": "Bogota",
           "yearVisited": [1981, 2006, 2018],
@@ -87,12 +88,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -73.541383,
         },
       ],
-      "countryCode": flagClass + "CO"
     }, {
       "id": "US",
       "showAsSelected": true,
       "name": "United States",
       "year": 1994,
+      "countryCode": flagClass + "US",
       "cities": [{
           "name": "Los Angeles",
           "yearVisited": [1994],
@@ -207,13 +208,25 @@ countriesServices.service('countriesServices', function() {
           "latitude": 35.5950581,
           "longitude": -82.5514869
         },
+        {
+          "name": "St. Louis",
+          "yearVisited": [2021],
+          "latitude": 38.6270025,
+          "longitude": -90.19940419999999
+        },
+        {
+          "name": "Fredericktown",
+          "yearVisited": [2021],
+          "latitude": 37.55977540000001,
+          "longitude": -90.2940069
+        },
       ],
-      "countryCode": flagClass + "US"
     }, {
       "id": "GB",
       "showAsSelected": true,
       "name": "Great Britain",
       "year": 2002,
+      "countryCode": flagClass + "GB",
       "cities": [{
           "name": "London",
           "yearVisited": [2002, 2018],
@@ -245,12 +258,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -2.58791
         }
       ],
-      "countryCode": flagClass + "GB"
     }, {
       "id": "FR",
       "showAsSelected": true,
       "name": "France",
       "year": 2002,
+      "countryCode": flagClass + "FR",
       "cities": [{
           "name": "Paris",
           "yearVisited": [2002],
@@ -282,12 +295,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": 6.129384,
         },
       ],
-      "countryCode": flagClass + "FR"
     }, {
       "id": "MX",
       "showAsSelected": true,
       "name": "Mexico",
       "year": 2006,
+      "countryCode": flagClass + "MX",
       "cities": [{
           "name": "Mazatlan",
           "yearVisited": [2006],
@@ -331,12 +344,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -89.5925857,
         },
       ],
-      "countryCode": flagClass + "MX"
     }, {
       "id": "IT",
       "showAsSelected": true,
       "name": "Italy",
       "year": 2006,
+      "countryCode": flagClass + "IT",
       "cities": [{
           "name": "Rome",
           "yearVisited": [2006, 2019, 2020],
@@ -374,48 +387,48 @@ countriesServices.service('countriesServices', function() {
           "longitude": 14.4989344,
         }
       ],
-      "countryCode": flagClass + "IT"
     }, {
       "id": "VA",
       "showAsSelected": true,
       "name": "Vatican City",
       "year": 2006,
+      "countryCode": flagClass + "VA",
       "cities": [{
         "name": "Vatican City",
         "yearVisited": [2006],
         "latitude": 41.902916,
         "longitude": 12.453389
       }],
-      "countryCode": flagClass + "VA"
     }, {
       "id": "MC",
       "showAsSelected": true,
       "name": "Monaco",
       "year": 2006,
+      "countryCode": flagClass + "MC",
       "cities": [{
         "name": "Monaco",
         "yearVisited": [2006],
         "latitude": 43.73841760000001,
         "longitude": 7.424615799999999
       }],
-      "countryCode": flagClass + "MC"
     }, {
       "id": "NL",
       "showAsSelected": true,
       "name": "Netherlands",
       "year": 2006,
+      "countryCode": flagClass + "NL",
       "cities": [{
         "name": "Amsterdam",
         "yearVisited": [2006],
         "latitude": 52.3702157,
         "longitude": 4.895167900000001
       }, ],
-      "countryCode": flagClass + "NL"
     }, {
       "id": "DE",
       "showAsSelected": true,
       "name": "Germany",
       "year": 2006,
+      "countryCode": flagClass + "DE",
       "cities": [{
           "name": "Berlin",
           "yearVisited": [2006],
@@ -441,24 +454,24 @@ countriesServices.service('countriesServices', function() {
           "longitude": 11.5819805,
         },
       ],
-      "countryCode": flagClass + "DE"
     }, {
       "id": "CA",
       "showAsSelected": true,
       "name": "Canada",
       "year": 2013,
+      "countryCode": flagClass + "CA",
       "cities": [{
         "name": "Vancouver",
         "yearVisited": [2013],
         "latitude": 49.2827291,
         "longitude": -123.1207375
       }, ],
-      "countryCode": flagClass + "CA"
     }, {
       "id": "HR",
       "showAsSelected": true,
       "name": "Croatia",
       "year": 2017,
+      "countryCode": flagClass + "HR",
       "cities": [{
           "name": "Split",
           "yearVisited": [2017],
@@ -484,12 +497,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": 15.9819189
         },
       ],
-      "countryCode": flagClass + "HR"
     }, {
       "id": "CZ",
       "showAsSelected": true,
       "name": "Czech Republic",
       "year": 2017,
+      "countryCode": flagClass + "CZ",
       "cities": [{
           "name": "Prague",
           "yearVisited": [2017, 2018],
@@ -516,12 +529,12 @@ countriesServices.service('countriesServices', function() {
         },
 
       ],
-      "countryCode": flagClass + "CZ"
     }, {
       "id": "PT",
       "showAsSelected": true,
       "name": "Portugal",
       "year": 2017,
+      "countryCode": flagClass + "PT",
       "cities": [{
           "name": "Lisbon",
           "yearVisited": [2017, 2018],
@@ -547,24 +560,24 @@ countriesServices.service('countriesServices', function() {
           "longitude": -8.6730275
         },
       ],
-      "countryCode": flagClass + "PT"
     }, {
       "id": "PL",
       "showAsSelected": true,
       "name": "Poland",
       "year": 2017,
+      "countryCode": flagClass + "PL",
       "cities": [{
         "name": "Krakow",
         "yearVisited": [2017],
         "latitude": 50.06465009999999,
         "longitude": 19.9449799
       }, ],
-      "countryCode": flagClass + "PL"
     }, {
       "id": "MA",
       "showAsSelected": true,
       "name": "Morocco",
       "year": 2017,
+      "countryCode": flagClass + "MA",
       "cities": [{
           "name": "Tangier",
           "yearVisited": [2017],
@@ -596,12 +609,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -9.7595041,
         },
       ],
-      "countryCode": flagClass + "MA"
     }, {
       "id": "ES",
       "showAsSelected": true,
       "name": "Spain",
       "year": 2017,
+      "countryCode": flagClass + "ES",
       "cities": [{
           "name": "Barcelona",
           "yearVisited": [2017],
@@ -639,12 +652,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -0.7901334
         },
       ],
-      "countryCode": flagClass + "ES"
     }, {
       "id": "BG",
       "showAsSelected": true,
       "name": "Bulgaria",
       "year": 2017,
+      "countryCode": flagClass + "BG",
       "cities": [{
           "name": "Sofia",
           "yearVisited": [2017, 2018],
@@ -676,36 +689,36 @@ countriesServices.service('countriesServices', function() {
           "longitude": 25.4988388
         },
       ],
-      "countryCode": flagClass + "BG"
     }, {
       "id": "IL",
       "showAsSelected": true,
       "name": "Israel",
       "year": 2017,
+      "countryCode": flagClass + "IL",
       "cities": [{
         "name": "Tel Aviv",
         "yearVisited": [2017],
         "latitude": 32.0852999,
         "longitude": 34.78176759999999
       }, ],
-      "countryCode": flagClass + "IL"
     }, {
       "id": "TR",
       "showAsSelected": true,
       "name": "Turkey",
       "year": 2017,
+      "countryCode": flagClass + "TR",
       "cities": [{
         "name": "Istanbul",
         "yearVisited": [2017],
         "latitude": 41.0082376,
         "longitude": 28.9783589
       }, ],
-      "countryCode": flagClass + "TR"
     }, {
       "id": "VN",
       "showAsSelected": true,
       "name": "Vietnam",
       "year": 2017,
+      "countryCode": flagClass + "VN",
       "cities": [{
           "name": "Hanoi",
           "yearVisited": [2017],
@@ -719,12 +732,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": 107.1839024
         },
       ],
-      "countryCode": flagClass + "VN"
     }, {
       "id": "TH",
       "showAsSelected": true,
       "name": "Thailand",
       "year": 2017,
+      "countryCode": flagClass + "TH",
       "cities": [{
           "name": "Chiang Mai",
           "yearVisited": [2017],
@@ -750,12 +763,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": 98.4870612
         },
       ],
-      "countryCode": flagClass + "TH"
     }, {
       "id": "JP",
       "showAsSelected": true,
       "name": "Japan",
       "year": 2017,
+      "countryCode": flagClass + "JP",
       "cities": [{
           "name": "Kyoto",
           "yearVisited": [2017],
@@ -799,13 +812,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 137.2136768
         },
       ],
-      "countryCode": flagClass + "JP"
     },
     {
       "id": "MY",
       "showAsSelected": true,
       "name": "Malaysia",
       "year": 2017,
+      "countryCode": flagClass + "MY",
       "cities": [{
           "name": "Kuala Lumpur",
           "yearVisited": [2017],
@@ -825,13 +838,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 99.8
         },
       ],
-      "countryCode": flagClass + "MY"
     },
     {
       "id": "PE",
       "showAsSelected": true,
       "name": "Peru",
       "year": 2017,
+      "countryCode": flagClass + "PE",
       "cities": [{
           "name": "Lima",
           "yearVisited": [2017],
@@ -851,13 +864,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": -72.5449629
         },
       ],
-      "countryCode": flagClass + "PE"
     },
     {
       "id": "GR",
       "showAsSelected": true,
       "name": "Greece",
       "year": 2018,
+      "countryCode": flagClass + "GR",
       "cities": [{
           "name": "Athens",
           "yearVisited": [2018],
@@ -877,13 +890,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 22.5009699
         },
       ],
-      "countryCode": flagClass + "GR"
     },
     {
       "id": "RS",
       "showAsSelected": true,
       "name": "Serbia",
       "year": 2018,
+      "countryCode": flagClass + "RS",
       "cities": [{
           "name": "Belgrade",
           "yearVisited": [2018],
@@ -897,13 +910,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 19.8335496
         },
       ],
-      "countryCode": flagClass + "RS"
     },
     {
       "id": "RO",
       "showAsSelected": true,
       "name": "Romania",
       "year": 2018,
+      "countryCode": flagClass + "RO",
       "cities": [{
           "name": "Bucharest",
           "yearVisited": [2018, 2019],
@@ -947,13 +960,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 25.5887252,
         },
       ],
-      "countryCode": flagClass + "RO"
     },
     {
       "id": "EG",
       "showAsSelected": true,
       "name": "Egypt",
       "year": 2019,
+      "countryCode": flagClass + "EG",
       "cities": [{
           "name": "Giza",
           "yearVisited": [2019],
@@ -979,13 +992,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 31.2357116,
         },
       ],
-      "countryCode": flagClass + "EG"
     },
     {
       "id": "IE",
       "showAsSelected": true,
       "name": "Ireland",
       "year": 2019,
+      "countryCode": flagClass + "IE",
       "cities": [{
           "name": "Dublin",
           "yearVisited": [2019, 2020],
@@ -1011,13 +1024,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": -8.777650399999999,
         },
       ],
-      "countryCode": flagClass + "IE"
     },
     {
       "id": "BA",
       "showAsSelected": true,
       "name": "Bosnia and Herzegovina",
       "year": 2019,
+      "countryCode": flagClass + "BA",
       "cities": [{
           "name": "Sarajevo",
           "yearVisited": [2019],
@@ -1031,26 +1044,26 @@ countriesServices.service('countriesServices', function() {
           "longitude": 17.8077578,
         },
       ],
-      "countryCode": flagClass + "BA"
     },
     {
       "id": "AT",
       "showAsSelected": true,
       "name": "Austria",
       "year": 2019,
+      "countryCode": flagClass + "AT",
       "cities": [{
         "name": "Vienna",
         "yearVisited": [2019],
         "latitude": 48.2081743,
         "longitude": 16.3738189,
       }, ],
-      "countryCode": flagClass + "AT"
     },
     {
       "id": "ZA",
       "showAsSelected": true,
       "name": "South Africa",
       "year": 2019,
+      "countryCode": flagClass + "ZA",
       "cities": [{
           "name": "Cape Town",
           "yearVisited": [2019],
@@ -1064,12 +1077,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": 31.5262986,
         },
       ],
-      "countryCode": flagClass + "ZA"
     },
     {
       "id": "GE",
       "showAsSelected": true,
       "name": "Georgia",
+      "countryCode": flagClass + "GE",
       "year": 2020,
       "cities": [{
         "name": "T'bilisi",
@@ -1077,7 +1090,6 @@ countriesServices.service('countriesServices', function() {
         "latitude": 41.7151377,
         "longitude": 44.827096,
       }, ],
-      "countryCode": flagClass + "GE"
     },
   ]
 
@@ -1087,6 +1099,7 @@ countriesServices.service('countriesServices', function() {
       "showAsSelected": true,
       "name": "Morocco",
       "year": 2019,
+      "countryCode": flagClass + "MA",
       "cities": [
         {
           "name": "Marrakesh",
@@ -1101,12 +1114,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -9.7595041,
         },
       ],
-      "countryCode": flagClass + "MA"
     }, {
       "id": "BA",
       "showAsSelected": true,
       "name": "Bosnia and Herzegovina",
       "year": 2019,
+      "countryCode": flagClass + "BA",
       "cities": [{
           "name": "Sarajevo",
           "yearVisited": [2019],
@@ -1120,26 +1133,26 @@ countriesServices.service('countriesServices', function() {
           "longitude": 17.8077578,
         },
       ],
-      "countryCode": flagClass + "BA"
     },
     {
       "id": "AT",
       "showAsSelected": true,
       "name": "Austria",
       "year": 2019,
+      "countryCode": flagClass + "AT",
       "cities": [{
         "name": "Vienna",
         "yearVisited": [2019],
         "latitude": 48.2081743,
         "longitude": 16.3738189,
       }, ],
-      "countryCode": flagClass + "AT"
     },
     {
       "id": "ZA",
       "showAsSelected": true,
       "name": "South Africa",
       "year": 2019,
+      "countryCode": flagClass + "ZA",
       "cities": [{
           "name": "Cape Town",
           "yearVisited": [2019],
@@ -1153,13 +1166,13 @@ countriesServices.service('countriesServices', function() {
           "longitude": 31.5262986,
         },
       ],
-      "countryCode": flagClass + "ZA"
     },
     {
       "id": "IE",
       "showAsSelected": true,
       "name": "Ireland",
       "year": 2019,
+      "countryCode": flagClass + "IE",
       "cities": [
         {
           "name": "Sixmilebridge",
@@ -1174,12 +1187,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": -6.2603097,
         },
       ],
-      "countryCode": flagClass + "IE"
     },{
       "id": "IT",
       "showAsSelected": true,
       "name": "Italy",
       "year": 2020,
+      "countryCode": flagClass + "IT",
       "cities": [{
           "name": "Rome",
           "yearVisited": [2020],
@@ -1193,12 +1206,12 @@ countriesServices.service('countriesServices', function() {
           "longitude": 11.2558136
         },
       ],
-      "countryCode": flagClass + "IT"
     },
     {
       "id": "GE",
       "showAsSelected": true,
       "name": "Georgia",
+      "countryCode": flagClass + "GE",
       "year": 2020,
       "cities": [{
         "name": "T'bilisi",
@@ -1206,26 +1219,38 @@ countriesServices.service('countriesServices', function() {
         "latitude": 41.7151377,
         "longitude": 44.827096,
       }, ],
-      "countryCode": flagClass + "GE"
     },{
       "id": "US",
       "showAsSelected": true,
       "name": "United States",
       "year": 2020,
+      "countryCode": flagClass + "US",
       "cities": [{
           "name": "Los Angeles",
           "yearVisited": [2020],
           "latitude": 34.0522342,
           "longitude": -118.2436849
         },
+        {
+          "name": "St. Louis",
+          "yearVisited": [2021],
+          "latitude": 38.6270025,
+          "longitude": -90.19940419999999
+        },
+        {
+          "name": "Fredericktown",
+          "yearVisited": [2021],
+          "latitude": 37.55977540000001,
+          "longitude": -90.2940069
+        },
       ],
-      "countryCode": flagClass + "US"
     },
      {
       "id": "MX",
       "showAsSelected": true,
       "name": "Mexico",
       "year": 2020,
+      "countryCode": flagClass + "MX",
       "cities": [{
           "name": "Mexico City",
           "yearVisited": [2020, 2021],
@@ -1251,7 +1276,6 @@ countriesServices.service('countriesServices', function() {
           "longitude": -89.5925857,
         },
       ],
-      "countryCode": flagClass + "MX"
     },
   ]
 
