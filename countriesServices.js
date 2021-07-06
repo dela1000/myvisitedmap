@@ -220,6 +220,12 @@ countriesServices.service('countriesServices', function() {
           "latitude": 37.55977540000001,
           "longitude": -90.2940069
         },
+        {
+          "name": "Portland",
+          "yearVisited": [2021],
+          "latitude": 45.5051064,
+          "longitude": -122.6750261
+        },
       ],
     }, {
       "id": "GB",
@@ -1242,6 +1248,12 @@ countriesServices.service('countriesServices', function() {
           "yearVisited": [2021],
           "latitude": 37.55977540000001,
           "longitude": -90.2940069
+        },
+        {
+          "name": "Portland",
+          "yearVisited": [2021],
+          "latitude": 45.5051064,
+          "longitude": -122.6750261
         },
       ],
     },
