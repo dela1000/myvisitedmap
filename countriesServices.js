@@ -428,7 +428,13 @@ countriesServices.service('countriesServices', function() {
         "yearVisited": [2006],
         "latitude": 52.3702157,
         "longitude": 4.895167900000001
-      }, ],
+      },
+    {
+        "name": "Delft",
+        "yearVisited": [2021],
+        "latitude": 52.01157689999999,
+        "longitude": 4.3570677
+      },],
     }, {
       "id": "DE",
       "showAsSelected": true,
@@ -1097,6 +1103,19 @@ countriesServices.service('countriesServices', function() {
         "longitude": 44.827096,
       }, ],
     },
+    {
+      "id": "HU",
+      "showAsSelected": true,
+      "name": "Hungary",
+      "countryCode": flagClass + "HU",
+      "year": 2020,
+      "cities": [{
+        "name": "Budapest",
+        "yearVisited": [2021],
+        "latitude": 47.497912,
+        "longitude": 19.040235,
+      }, ],
+    },
   ]
 
   services.rndData = [
@@ -1225,7 +1244,8 @@ countriesServices.service('countriesServices', function() {
         "latitude": 41.7151377,
         "longitude": 44.827096,
       }, ],
-    },{
+    },
+    {
       "id": "US",
       "showAsSelected": true,
       "name": "United States",
@@ -1257,7 +1277,7 @@ countriesServices.service('countriesServices', function() {
         },
       ],
     },
-     {
+    {
       "id": "MX",
       "showAsSelected": true,
       "name": "Mexico",
@@ -1288,6 +1308,38 @@ countriesServices.service('countriesServices', function() {
           "longitude": -89.5925857,
         },
       ],
+    },
+    {
+      "id": "NL",
+      "showAsSelected": true,
+      "name": "Netherlands",
+      "year": 2006,
+      "countryCode": flagClass + "NL",
+      "cities": [{
+        "name": "Amsterdam",
+        "yearVisited": [2021],
+        "latitude": 52.3702157,
+        "longitude": 4.895167900000001
+      },
+    {
+        "name": "Delft",
+        "yearVisited": [2021],
+        "latitude": 52.01157689999999,
+        "longitude": 4.3570677
+      },],
+    },
+    {
+      "id": "HU",
+      "showAsSelected": true,
+      "name": "Hungary",
+      "countryCode": flagClass + "HU",
+      "year": 2020,
+      "cities": [{
+        "name": "Budapest",
+        "yearVisited": [2021],
+        "latitude": 47.497912,
+        "longitude": 19.040235,
+      }, ],
     },
   ]
 
