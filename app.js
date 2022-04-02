@@ -1,34 +1,46 @@
 //Angular code for list
-let app = angular.module('countriesApp', ['countriesServices', 'keyProvider']);
+let app = angular.module('countriesApp', ['countriesServices', 'keyProvider']).constant('_', window._);
 
-app.controller('countryMapController', function($scope, $http, countriesServices, keyProvider) {
+app.controller('countryMapController', function($scope, $http, countriesServices, keyProvider, _) {
   let dSelected;
+
+  $scope.hideCitiesFlag = false;
+  $scope.hideCitiesTitle = 'Hide';
 
     //For Countries Table
   $scope.switchData = () => {
     if(dSelected === true){
-      $scope.countries = countriesServices.rndData;
+      $scope.countries = _.cloneDeep(countriesServices.rndData);
       $scope.listName = "RnD";
       dSelected = false;
     } else {
-      $scope.countries = countriesServices.dsData;
+      $scope.countries = _.cloneDeep(countriesServices.dsData);
       $scope.listName = "Daniel";
       dSelected = true;
     }
     createMap($scope.countries)
   }
 
-  createMap = dataSelected => {
+  $scope.hideCities = () => {
+    $scope.hideCitiesFlag = !$scope.hideCitiesFlag
+    if($scope.hideCitiesTitle === 'Hide'){
+      $scope.hideCitiesTitle = 'Show';
+    } else {
+      $scope.hideCitiesTitle = 'Hide';
+    }
+  }
 
-    let targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
+  const createMap = dataSelected => {
+
+    const targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
 
     //Add cities to map
-    let cityDataArray = [];
+    const cityDataArray = [];
 
     dataSelected.forEach(country => {
       if(country.cities){
         country.cities.forEach(cityData => {
-          let city = new AmCharts.MapImage();
+          const city = new AmCharts.MapImage();
           city.title = cityData.name;
           if(cityData.latitude){
             city.latitude = cityData.latitude;
@@ -43,7 +55,7 @@ app.controller('countryMapController', function($scope, $http, countriesServices
     })
 
     //Map code
-    let map = AmCharts.makeChart("mapdiv", {
+    AmCharts.makeChart("mapdiv", {
       "type": "map",
       "theme": "dark",
 

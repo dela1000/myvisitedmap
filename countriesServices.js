@@ -8,7 +8,280 @@ countriesServices.service('countriesServices', function() {
   // http://www.nationsonline.org/oneworld/country_code_list.htm
   const flagClass = "flag-icon flag-icon-"
 
-  services.dsData = [{
+
+  services.rndData = [
+    {
+      "id": "MA",
+      "showAsSelected": true,
+      "name": "Morocco",
+      "year": 2019,
+      "countryCode": flagClass + "MA",
+      "cities": [
+        {
+          "name": "Marrakesh",
+          "yearVisited": [2019],
+          "latitude": 31.6294723,
+          "longitude": -7.981084500000001
+        },
+        {
+          "name": "Essaouira",
+          "yearVisited": [2019],
+          "latitude": 31.5084926,
+          "longitude": -9.7595041,
+        },
+      ],
+    }, {
+      "id": "BA",
+      "showAsSelected": true,
+      "name": "Bosnia and Herzegovina",
+      "year": 2019,
+      "countryCode": flagClass + "BA",
+      "cities": [{
+          "name": "Sarajevo",
+          "yearVisited": [2019],
+          "latitude": 43.8562586,
+          "longitude": 18.4130763,
+        },
+        {
+          "name": "Mostar",
+          "yearVisited": [2019],
+          "latitude": 43.34377480000001,
+          "longitude": 17.8077578,
+        },
+      ],
+    },
+    {
+      "id": "HR",
+      "showAsSelected": true,
+      "name": "Croatia",
+      "year": 2017,
+      "countryCode": flagClass + "HR",
+      "cities": [{
+          "name": "Dubrovnik",
+          "yearVisited": [2019],
+          "latitude": 42.65066059999999,
+          "longitude": 18.0944238
+        }],
+    },
+    {
+      "id": "AT",
+      "showAsSelected": true,
+      "name": "Austria",
+      "year": 2019,
+      "countryCode": flagClass + "AT",
+      "cities": [{
+        "name": "Vienna",
+        "yearVisited": [2019],
+        "latitude": 48.2081743,
+        "longitude": 16.3738189,
+      }, ],
+    },
+    {
+      "id": "ZA",
+      "showAsSelected": true,
+      "name": "South Africa",
+      "year": 2019,
+      "countryCode": flagClass + "ZA",
+      "cities": [{
+          "name": "Cape Town",
+          "yearVisited": [2019, 2021],
+          "latitude": -33.9248685,
+          "longitude": 18.4240553,
+        },
+        {
+          "name": "Manyeleti",
+          "yearVisited": [2019],
+          "latitude": -24.6479532,
+          "longitude": 31.5262986,
+        },
+        {
+          "name": "Cederberg",
+          "yearVisited": [2021],
+          "latitude": -32.5891202,
+          "longitude": 19.0118251,
+        },
+      ],
+    },
+    {
+      "id": "IE",
+      "showAsSelected": true,
+      "name": "Ireland",
+      "year": 2019,
+      "countryCode": flagClass + "IE",
+      "cities": [
+        {
+          "name": "Sixmilebridge",
+          "yearVisited": [2019],
+          "latitude": 52.7436246,
+          "longitude": -8.777650399999999,
+        },
+        {
+          "name": "Dublin",
+          "yearVisited": [2020],
+          "latitude": 53.3498053,
+          "longitude": -6.2603097,
+        },
+      ],
+    },{
+      "id": "IT",
+      "showAsSelected": true,
+      "name": "Italy",
+      "year": 2020,
+      "countryCode": flagClass + "IT",
+      "cities": [{
+          "name": "Rome",
+          "yearVisited": [2020],
+          "latitude": 41.9027835,
+          "longitude": 12.4963655
+        },
+        {
+          "name": "Florence",
+          "yearVisited": [2020],
+          "latitude": 43.7695604,
+          "longitude": 11.2558136
+        },
+      ],
+    },
+    {
+      "id": "GE",
+      "showAsSelected": true,
+      "name": "Georgia",
+      "countryCode": flagClass + "GE",
+      "year": 2020,
+      "cities": [{
+        "name": "T'bilisi",
+        "yearVisited": [2020],
+        "latitude": 41.7151377,
+        "longitude": 44.827096,
+      }, ],
+    },
+    {
+      "id": "US",
+      "showAsSelected": true,
+      "name": "United States",
+      "year": 2020,
+      "countryCode": flagClass + "US",
+      "cities": [{
+          "name": "Los Angeles",
+          "yearVisited": [2020],
+          "latitude": 34.0522342,
+          "longitude": -118.2436849
+        },
+        {
+          "name": "St. Louis",
+          "yearVisited": [2021],
+          "latitude": 38.6270025,
+          "longitude": -90.19940419999999
+        },
+        {
+          "name": "Fredericktown",
+          "yearVisited": [2021],
+          "latitude": 37.55977540000001,
+          "longitude": -90.2940069
+        },
+        {
+          "name": "Portland",
+          "yearVisited": [2021],
+          "latitude": 45.5051064,
+          "longitude": -122.6750261
+        },
+      ],
+    },
+    {
+      "id": "MX",
+      "showAsSelected": true,
+      "name": "Mexico",
+      "year": 2020,
+      "countryCode": flagClass + "MX",
+      "cities": [{
+          "name": "Mexico City",
+          "yearVisited": [2020, 2021],
+          "latitude": 19.4326077,
+          "longitude": -99.133208,
+        },
+        {
+          "name": "Oaxaca",
+          "yearVisited": [2021],
+          "latitude": 17.0731842,
+          "longitude": -96.7265889,
+        },
+        {
+          "name": "Playa del Carmen",
+          "yearVisited": [2021],
+          "latitude": 20.6295586,
+          "longitude": -87.0738851,
+        },
+        {
+          "name": "Merida",
+          "yearVisited": [2021],
+          "latitude": 20.9673702,
+          "longitude": -89.5925857,
+        },
+      ],
+    },
+    {
+      "id": "NL",
+      "showAsSelected": true,
+      "name": "Netherlands",
+      "year": 2021,
+      "countryCode": flagClass + "NL",
+      "cities": [{
+        "name": "Amsterdam",
+        "yearVisited": [2021],
+        "latitude": 52.3702157,
+        "longitude": 4.895167900000001
+      },
+    {
+        "name": "Delft",
+        "yearVisited": [2021],
+        "latitude": 52.01157689999999,
+        "longitude": 4.3570677
+      },],
+    },
+    {
+      "id": "HU",
+      "showAsSelected": true,
+      "name": "Hungary",
+      "countryCode": flagClass + "HU",
+      "year": 2021,
+      "cities": [{
+        "name": "Budapest",
+        "yearVisited": [2021],
+        "latitude": 47.497912,
+        "longitude": 19.040235,
+      }, ],
+    },
+    {
+      "id": "PT",
+      "showAsSelected": true,
+      "name": "Portugal",
+      "year": 2021,
+      "countryCode": flagClass + "PT",
+      "cities": [{
+          "name": "Porto",
+          "yearVisited": [2021],
+          "latitude": 41.1579438,
+          "longitude": -8.629105299999999
+        },
+      ],
+    },
+    {
+      "id": "NA",
+      "showAsSelected": true,
+      "name": "Namibia",
+      "countryCode": flagClass + "NA",
+      "year": 2022,
+      "cities": [{
+        "name": "Windhoek",
+        "yearVisited": [2022],
+        "latitude": -22.5608807,
+        "longitude": 17.0657549,
+      }, ],
+    },
+  ]
+
+  services.dsData = [
+    {
       "id": "VE",
       "showAsSelected": true,
       "name": "Venezuela",
@@ -425,7 +698,7 @@ countriesServices.service('countriesServices', function() {
       "countryCode": flagClass + "NL",
       "cities": [{
         "name": "Amsterdam",
-        "yearVisited": [2006],
+        "yearVisited": [2006, 2021],
         "latitude": 52.3702157,
         "longitude": 4.895167900000001
       },
@@ -555,7 +828,7 @@ countriesServices.service('countriesServices', function() {
         },
         {
           "name": "Porto",
-          "yearVisited": [2017],
+          "yearVisited": [2017, 2021],
           "latitude": 41.1579438,
           "longitude": -8.629105299999999
         },
@@ -1078,7 +1351,7 @@ countriesServices.service('countriesServices', function() {
       "countryCode": flagClass + "ZA",
       "cities": [{
           "name": "Cape Town",
-          "yearVisited": [2019],
+          "yearVisited": [2019, 2021],
           "latitude": -33.9248685,
           "longitude": 18.4240553,
         },
@@ -1087,6 +1360,12 @@ countriesServices.service('countriesServices', function() {
           "yearVisited": [2019],
           "latitude": -24.6479532,
           "longitude": 31.5262986,
+        },
+        {
+          "name": "Cederberg",
+          "yearVisited": [2021],
+          "latitude": -32.5891202,
+          "longitude": 19.0118251,
         },
       ],
     },
@@ -1108,7 +1387,7 @@ countriesServices.service('countriesServices', function() {
       "showAsSelected": true,
       "name": "Hungary",
       "countryCode": flagClass + "HU",
-      "year": 2020,
+      "year": 2021,
       "cities": [{
         "name": "Budapest",
         "yearVisited": [2021],
@@ -1116,229 +1395,17 @@ countriesServices.service('countriesServices', function() {
         "longitude": 19.040235,
       }, ],
     },
-  ]
-
-  services.rndData = [
     {
-      "id": "MA",
+      "id": "NA",
       "showAsSelected": true,
-      "name": "Morocco",
-      "year": 2019,
-      "countryCode": flagClass + "MA",
-      "cities": [
-        {
-          "name": "Marrakesh",
-          "yearVisited": [2019],
-          "latitude": 31.6294723,
-          "longitude": -7.981084500000001
-        },
-        {
-          "name": "Essaouira",
-          "yearVisited": [2019],
-          "latitude": 31.5084926,
-          "longitude": -9.7595041,
-        },
-      ],
-    }, {
-      "id": "BA",
-      "showAsSelected": true,
-      "name": "Bosnia and Herzegovina",
-      "year": 2019,
-      "countryCode": flagClass + "BA",
+      "name": "Namibia",
+      "countryCode": flagClass + "NA",
+      "year": 2022,
       "cities": [{
-          "name": "Sarajevo",
-          "yearVisited": [2019],
-          "latitude": 43.8562586,
-          "longitude": 18.4130763,
-        },
-        {
-          "name": "Mostar",
-          "yearVisited": [2019],
-          "latitude": 43.34377480000001,
-          "longitude": 17.8077578,
-        },
-      ],
-    },
-    {
-      "id": "AT",
-      "showAsSelected": true,
-      "name": "Austria",
-      "year": 2019,
-      "countryCode": flagClass + "AT",
-      "cities": [{
-        "name": "Vienna",
-        "yearVisited": [2019],
-        "latitude": 48.2081743,
-        "longitude": 16.3738189,
-      }, ],
-    },
-    {
-      "id": "ZA",
-      "showAsSelected": true,
-      "name": "South Africa",
-      "year": 2019,
-      "countryCode": flagClass + "ZA",
-      "cities": [{
-          "name": "Cape Town",
-          "yearVisited": [2019],
-          "latitude": -33.9248685,
-          "longitude": 18.4240553,
-        },
-        {
-          "name": "Manyeleti",
-          "yearVisited": [2019],
-          "latitude": -24.6479532,
-          "longitude": 31.5262986,
-        },
-      ],
-    },
-    {
-      "id": "IE",
-      "showAsSelected": true,
-      "name": "Ireland",
-      "year": 2019,
-      "countryCode": flagClass + "IE",
-      "cities": [
-        {
-          "name": "Sixmilebridge",
-          "yearVisited": [2019],
-          "latitude": 52.7436246,
-          "longitude": -8.777650399999999,
-        },
-        {
-          "name": "Dublin",
-          "yearVisited": [2020],
-          "latitude": 53.3498053,
-          "longitude": -6.2603097,
-        },
-      ],
-    },{
-      "id": "IT",
-      "showAsSelected": true,
-      "name": "Italy",
-      "year": 2020,
-      "countryCode": flagClass + "IT",
-      "cities": [{
-          "name": "Rome",
-          "yearVisited": [2020],
-          "latitude": 41.9027835,
-          "longitude": 12.4963655
-        },
-        {
-          "name": "Florence",
-          "yearVisited": [2020],
-          "latitude": 43.7695604,
-          "longitude": 11.2558136
-        },
-      ],
-    },
-    {
-      "id": "GE",
-      "showAsSelected": true,
-      "name": "Georgia",
-      "countryCode": flagClass + "GE",
-      "year": 2020,
-      "cities": [{
-        "name": "T'bilisi",
-        "yearVisited": [2020],
-        "latitude": 41.7151377,
-        "longitude": 44.827096,
-      }, ],
-    },
-    {
-      "id": "US",
-      "showAsSelected": true,
-      "name": "United States",
-      "year": 2020,
-      "countryCode": flagClass + "US",
-      "cities": [{
-          "name": "Los Angeles",
-          "yearVisited": [2020],
-          "latitude": 34.0522342,
-          "longitude": -118.2436849
-        },
-        {
-          "name": "St. Louis",
-          "yearVisited": [2021],
-          "latitude": 38.6270025,
-          "longitude": -90.19940419999999
-        },
-        {
-          "name": "Fredericktown",
-          "yearVisited": [2021],
-          "latitude": 37.55977540000001,
-          "longitude": -90.2940069
-        },
-        {
-          "name": "Portland",
-          "yearVisited": [2021],
-          "latitude": 45.5051064,
-          "longitude": -122.6750261
-        },
-      ],
-    },
-    {
-      "id": "MX",
-      "showAsSelected": true,
-      "name": "Mexico",
-      "year": 2020,
-      "countryCode": flagClass + "MX",
-      "cities": [{
-          "name": "Mexico City",
-          "yearVisited": [2020, 2021],
-          "latitude": 19.4326077,
-          "longitude": -99.133208,
-        },
-        {
-          "name": "Oaxaca",
-          "yearVisited": [2021],
-          "latitude": 17.0731842,
-          "longitude": -96.7265889,
-        },
-        {
-          "name": "Playa del Carmen",
-          "yearVisited": [2021],
-          "latitude": 20.6295586,
-          "longitude": -87.0738851,
-        },
-        {
-          "name": "Merida",
-          "yearVisited": [2021],
-          "latitude": 20.9673702,
-          "longitude": -89.5925857,
-        },
-      ],
-    },
-    {
-      "id": "NL",
-      "showAsSelected": true,
-      "name": "Netherlands",
-      "year": 2006,
-      "countryCode": flagClass + "NL",
-      "cities": [{
-        "name": "Amsterdam",
-        "yearVisited": [2021],
-        "latitude": 52.3702157,
-        "longitude": 4.895167900000001
-      },
-    {
-        "name": "Delft",
-        "yearVisited": [2021],
-        "latitude": 52.01157689999999,
-        "longitude": 4.3570677
-      },],
-    },
-    {
-      "id": "HU",
-      "showAsSelected": true,
-      "name": "Hungary",
-      "countryCode": flagClass + "HU",
-      "year": 2020,
-      "cities": [{
-        "name": "Budapest",
-        "yearVisited": [2021],
-        "latitude": 47.497912,
-        "longitude": 19.040235,
+        "name": "Windhoek",
+        "yearVisited": [2022],
+        "latitude": -22.5608807,
+        "longitude": 17.0657549,
       }, ],
     },
   ]
