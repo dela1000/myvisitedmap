@@ -54,7 +54,7 @@ countriesServices.service('countriesServices', function() {
       "id": "HR",
       "showAsSelected": true,
       "name": "Croatia",
-      "year": 2017,
+      "year": 2019,
       "countryCode": flagClass + "HR",
       "cities": [{
           "name": "Dubrovnik",
