@@ -1,7 +1,7 @@
-var dsServices = angular.module('dsServices', [])
+const dsServices = angular.module('dsServices', [])
 
 dsServices.service('dsServices', function() {
-  let services = {};
+  const services = {};
 
   //Countries' data
   // add country codes from this list:

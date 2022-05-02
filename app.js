@@ -1,5 +1,5 @@
 //Angular code for list
-let app = angular.module('countriesApp', ['dsServices', 'rndServices', 'keyProvider']).constant('_', window._);
+const app = angular.module('countriesApp', ['dsServices', 'rndServices', 'keyProvider']).constant('_', window._);
 
 app.controller('countryMapController', function($scope, $http, dsServices, rndServices, keyProvider, _) {
   let dSelected;

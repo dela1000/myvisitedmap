@@ -1,7 +1,7 @@
-var rndServices = angular.module('rndServices', [])
+const rndServices = angular.module('rndServices', [])
 
 rndServices.service('rndServices', function() {
-  let services = {};
+  const services = {};
 
   //Countries' data
   // add country codes from this list:
