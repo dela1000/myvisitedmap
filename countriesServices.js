@@ -276,6 +276,51 @@ countriesServices.service('countriesServices', function() {
         "yearVisited": [2022],
         "latitude": -22.5608807,
         "longitude": 17.0657549,
+      },
+        {
+        "name": "Hoanib Valley",
+        "yearVisited": [2022],
+        "latitude": -19.26889495039575,
+        "longitude": 13.29075839237384,
+        },
+        {
+        "name": "Etosha",
+        "yearVisited": [2022],
+        "latitude": -18.8555909,
+        "longitude": 16.3293197,
+      },
+        {
+        "name": "Sossusvlei",
+        "yearVisited": [2022],
+        "latitude": -24.7273906,
+        "longitude": 15.3423909,
+      }
+      ],
+    },
+    {
+      "id": "RW",
+      "showAsSelected": true,
+      "name": "Rwanda",
+      "countryCode": flagClass + "RW",
+      "year": 2022,
+      "cities": [{
+        "name": "Kigali",
+        "yearVisited": [2022],
+        "latitude": -1.9440727,
+        "longitude": 30.0618851,
+      }, ],
+    },
+    {
+      "id": "UG",
+      "showAsSelected": true,
+      "name": "Uganda",
+      "countryCode": flagClass + "UG",
+      "year": 2022,
+      "cities": [{
+        "name": "Bugambira",
+        "yearVisited": [2022],
+        "latitude": -1.116667,
+        "longitude": 29.7,
       }, ],
     },
   ]
@@ -1406,6 +1451,51 @@ countriesServices.service('countriesServices', function() {
         "yearVisited": [2022],
         "latitude": -22.5608807,
         "longitude": 17.0657549,
+      },
+        {
+        "name": "Hoanib Valley",
+        "yearVisited": [2022],
+        "latitude": -19.26889495039575,
+        "longitude": 13.29075839237384,
+        },
+        {
+        "name": "Etosha",
+        "yearVisited": [2022],
+        "latitude": -18.8555909,
+        "longitude": 16.3293197,
+      },
+        {
+        "name": "Sossusvlei",
+        "yearVisited": [2022],
+        "latitude": -24.7273906,
+        "longitude": 15.3423909,
+      }
+      ],
+    },
+    {
+      "id": "RW",
+      "showAsSelected": true,
+      "name": "Rwanda",
+      "countryCode": flagClass + "RW",
+      "year": 2022,
+      "cities": [{
+        "name": "Kigali",
+        "yearVisited": [2022],
+        "latitude": -1.9440727,
+        "longitude": 30.0618851,
+      }, ],
+    },
+    {
+      "id": "UG",
+      "showAsSelected": true,
+      "name": "Uganda",
+      "countryCode": flagClass + "UG",
+      "year": 2022,
+      "cities": [{
+        "name": "Bugambira",
+        "yearVisited": [2022],
+        "latitude": -1.116667,
+        "longitude": 29.7,
       }, ],
     },
   ]
