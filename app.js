@@ -1,7 +1,7 @@
 //Angular code for list
-let app = angular.module('countriesApp', ['countriesServices', 'keyProvider']).constant('_', window._);
+let app = angular.module('countriesApp', ['dsServices', 'rndServices', 'keyProvider']).constant('_', window._);
 
-app.controller('countryMapController', function($scope, $http, countriesServices, keyProvider, _) {
+app.controller('countryMapController', function($scope, $http, dsServices, rndServices, keyProvider, _) {
   let dSelected;
 
   $scope.hideCitiesFlag = false;
@@ -10,11 +10,11 @@ app.controller('countryMapController', function($scope, $http, countriesServices
     //For Countries Table
   $scope.switchData = () => {
     if(dSelected === true){
-      $scope.countries = _.cloneDeep(countriesServices.rndData);
+      $scope.countries = _.cloneDeep(rndServices.rndData);
       $scope.listName = "RnD";
       dSelected = false;
     } else {
-      $scope.countries = _.cloneDeep(countriesServices.dsData);
+      $scope.countries = _.cloneDeep(dsServices.dsData);
       $scope.listName = "Daniel";
       dSelected = true;
     }
