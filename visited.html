@@ -42,7 +42,7 @@
         <div class="col">Flag</div>
         <div class="col-3">Country</div>
         <div class="col">First Visit</div>
-        <div class="col-5">Cities</div>
+        <div ng-hide="hideCitiesFlag" class="col-5">Cities</div>
         <div class="col pointer" ng-click="hideCities()">{{hideCitiesTitle}}</div>
       </div>
       <div class="row" ng-repeat="country in countries" ng-show="country.name">
@@ -51,8 +51,8 @@
         <div class="col" style="margin-top: 3px"><span ng-class="country.countryCode"/></div>
         <div class="col-3">{{country.name}}</div>
         <div class="col">{{country.year}}</div>
-        <div class="col-5">
-          <div ng-hide="hideCitiesFlag" class="row" ng-repeat="city in country.cities">
+        <div ng-hide="hideCitiesFlag" class="col-5">
+          <div class="row" ng-repeat="city in country.cities">
             <div class="col">{{city.name}}</div>
             <div class="col">
               <span ng-repeat=" year in city.yearVisited">

@@ -392,6 +392,12 @@ dsServices.service('dsServices', function() {
           "yearVisited": [2019],
           "latitude": 40.7461572,
           "longitude": 14.4989344,
+        },
+        {
+          "name": "Milan",
+          "yearVisited": [2020],
+          "latitude": 45.4642035,
+          "longitude": 9.189982,
         }
       ],
     }, {
@@ -571,6 +577,12 @@ dsServices.service('dsServices', function() {
           "yearVisited": [2017],
           "latitude": 37.1027881,
           "longitude": -8.6730275
+        },
+        {
+          "name": "Douro Valley",
+          "yearVisited": [2021],
+          "latitude": 41.17133889999999,
+          "longitude": -7.802805800000001
         },
       ],
     }, {
@@ -1000,7 +1012,7 @@ dsServices.service('dsServices', function() {
         },
         {
           "name": "Cairo",
-          "yearVisited": [2019],
+          "yearVisited": [2019, 2022],
           "latitude": 30.0444196,
           "longitude": 31.2357116,
         },
@@ -1079,7 +1091,7 @@ dsServices.service('dsServices', function() {
       "countryCode": flagClass + "ZA",
       "cities": [{
           "name": "Cape Town",
-          "yearVisited": [2019, 2021],
+          "yearVisited": [2019, 2021, 2022],
           "latitude": -33.9248685,
           "longitude": 18.4240553,
         },
@@ -1094,6 +1106,12 @@ dsServices.service('dsServices', function() {
           "yearVisited": [2021],
           "latitude": -32.5891202,
           "longitude": 19.0118251,
+        },
+        {
+          "name": "Kogelberg",
+          "yearVisited": [2022],
+          "latitude": -34.3321752,
+          "longitude": 18.9877857,
         },
       ],
     },
