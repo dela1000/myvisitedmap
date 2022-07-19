@@ -398,6 +398,12 @@ dsServices.service('dsServices', function() {
           "yearVisited": [2020],
           "latitude": 45.4642035,
           "longitude": 9.189982,
+        },
+        {
+          "name": "Gerano",
+          "yearVisited": [2022],
+          "latitude": 41.93372189999999,
+          "longitude": 12.9934362,
         }
       ],
     }, {
@@ -524,7 +530,7 @@ dsServices.service('dsServices', function() {
       "countryCode": flagClass + "CZ",
       "cities": [{
           "name": "Prague",
-          "yearVisited": [2017, 2018],
+          "yearVisited": [2017, 2018, 2022],
           "latitude": 50.0755381,
           "longitude": 14.4378005
         },
@@ -651,6 +657,12 @@ dsServices.service('dsServices', function() {
           "yearVisited": [2017],
           "latitude": 42.812526,
           "longitude": -1.6457745
+        },
+        {
+          "name": "Madrid",
+          "yearVisited": [2018],
+          "latitude": 40.4167754,
+          "longitude": -3.7037902
         },
         {
           "name": "Seville",

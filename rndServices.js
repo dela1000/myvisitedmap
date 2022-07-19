@@ -151,7 +151,19 @@ rndServices.service('rndServices', function() {
           "yearVisited": [2020],
           "latitude": 45.4642035,
           "longitude": 9.189982,
-        }
+        },
+        {
+          "name": "Gerano",
+          "yearVisited": [2022],
+          "latitude": 41.93372189999999,
+          "longitude": 12.9934362,
+        },
+        {
+          "name": "Naples",
+          "yearVisited": [2022],
+          "latitude": 40.8517983,
+          "longitude": 14.26812,
+        },
       ],
     },
     {
@@ -345,13 +357,47 @@ rndServices.service('rndServices', function() {
       "id": "EG",
       "showAsSelected": true,
       "name": "Egypt",
-      "year": 2019,
+      "year": 2022,
       "countryCode": flagClass + "EG",
       "cities": [{
           "name": "Cairo",
           "yearVisited": [2022],
           "latitude": 30.0444196,
           "longitude": 31.2357116,
+        },
+      ],
+    },
+    {
+      "id": "ES",
+      "showAsSelected": true,
+      "name": "Spain",
+      "year": 2022,
+      "countryCode": flagClass + "ES",
+      "cities": [{
+          "name": "Madrid",
+          "yearVisited": [2022],
+          "latitude": 40.4167754,
+          "longitude": -3.7037902
+        },
+        {
+          "name": "Granada",
+          "yearVisited": [2022],
+          "latitude": 37.1773363,
+          "longitude": -3.5985571
+        },
+      ],
+    },
+    {
+      "id": "CZ",
+      "showAsSelected": true,
+      "name": "Czech Republic",
+      "year": 2022,
+      "countryCode": flagClass + "CZ",
+      "cities": [{
+          "name": "Prague",
+          "yearVisited": [2022],
+          "latitude": 50.0755381,
+          "longitude": 14.4378005
         },
       ],
     },
