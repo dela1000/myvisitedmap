@@ -424,6 +424,18 @@ rndServices.service('rndServices', function () {
           latitude: 50.0755381,
           longitude: 14.4378005,
         },
+        {
+          name: 'Kutná Hora',
+          yearVisited: [2022],
+          latitude: 49.95243139999999,
+          longitude: 15.2686536,
+        },
+        {
+          name: 'Český Krumlov',
+          yearVisited: [2022],
+          latitude: 48.8127354,
+          longitude: 14.3174657,
+        },
       ],
     },
   ];

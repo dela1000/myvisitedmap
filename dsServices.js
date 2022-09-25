@@ -584,22 +584,28 @@ dsServices.service('dsServices', function () {
           longitude: 14.4378005,
         },
         {
-          name: 'Plzen',
+          name: 'Plzeň',
           yearVisited: [2017],
           latitude: 49.7384314,
           longitude: 13.3736371,
         },
         {
-          name: 'Karlstejn',
+          name: 'Karlštejn',
           yearVisited: [2017],
           latitude: 49.9395043,
           longitude: 14.1880461,
         },
         {
-          name: 'Kutna Hora',
+          name: 'Kutná Hora',
           yearVisited: [2017],
           latitude: 49.95243139999999,
           longitude: 15.2686536,
+        },
+        {
+          name: 'Český Krumlov',
+          yearVisited: [2022],
+          latitude: 48.8127354,
+          longitude: 14.3174657,
         },
       ],
     },
@@ -970,8 +976,8 @@ dsServices.service('dsServices', function () {
         {
           name: 'Cusco',
           yearVisited: [2017],
-          latitude: null,
-          longitude: null,
+          latitude: -13.53195,
+          longitude: -71.96746259999999,
         },
         {
           name: 'Machu Picchu',
