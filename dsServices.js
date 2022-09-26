@@ -968,16 +968,16 @@ dsServices.service('dsServices', function () {
           longitude: -77.042754,
         },
         {
-          name: 'Aguas Calientes',
-          yearVisited: [2017],
-          latitude: -13.1547062,
-          longitude: -72.5254412,
-        },
-        {
           name: 'Cusco',
           yearVisited: [2017],
           latitude: -13.53195,
           longitude: -71.96746259999999,
+        },
+        {
+          name: 'Aguas Calientes',
+          yearVisited: [2017],
+          latitude: -13.1547062,
+          longitude: -72.5254412,
         },
         {
           name: 'Machu Picchu',

@@ -28,8 +28,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
   <!-- App -->
   <script src="app.js" type="text/javascript"></script>
-  <script src="dsServices.js"></script>
-  <script src="rndServices.js"></script>
+  <script src="dsServices.js" charset="utf-8"></script>
+  <script src="rndServices.js" charset="utf-8"></script>
   <script src="keyProvider.js"></script>
 
   <body ng-controller="countryMapController">
@@ -37,16 +37,24 @@
     <div class="pb-5" style="background-color: #ededed">
       <div class="container pb-5" style="width: 80%">
         <div id="mapdiv" style="width: auto; height: 850px"></div>
+        <div class="d-flex">
+          <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
+          <div class="m-2">
+            <button type="button" class="btn btn-outline-secondary" ng-click="switchData()">
+              {{listName}}
+            </button>
+          </div>
+          <div class="m-2">
+            <button type="button" class="btn btn-outline-secondary" ng-click="hideCities()">
+              {{hideCitiesTitle}}
+            </button>
+          </div>
+        </div>
         <div class="row mt-2 fw-bold">
           <div class="col">
-            <!-- <button class="btn btn-primary" ng-click="getLatLngData()">get Lat/Lng</button> -->
-            <div class="d-grid">
-              <button type="button" class="btn btn-outline-secondary" ng-click="switchData()">
-                {{listName}}
-              </button>
-            </div>
+            <div class="float-end">#</div>
+            <br />
           </div>
-          <div class="col">#</div>
           <div class="col">Flag</div>
           <div class="col-3">Country</div>
           <div class="col">First Visit</div>
@@ -63,8 +71,10 @@
             <div class="row" ng-repeat="city in country.cities">
               <div class="col">{{city.name}}</div>
               <div class="col">
-                <span ng-repeat=" year in city.yearVisited">
-                  <span style="float: left; margin-right: 10px">{{year}}</span>
+                <span ng-repeat=" (index, year) in city.yearVisited">
+                  <span style="float: left; margin-right: 10px">
+                    <span>{{year}}{{index < city.yearVisited.length - 1 ?'-':''}}</span>
+                  </span>
                 </span>
               </div>
             </div>
