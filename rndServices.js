@@ -220,6 +220,12 @@ rndServices.service('rndServices', function () {
           latitude: 45.5051064,
           longitude: -122.6750261,
         },
+        {
+          name: 'Seattle',
+          yearVisited: [2022],
+          latitude: 47.6062095,
+          longitude: -122.3320708,
+        },
       ],
     },
     {
@@ -252,6 +258,18 @@ rndServices.service('rndServices', function () {
           yearVisited: [2021],
           latitude: 20.9673702,
           longitude: -89.5925857,
+        },
+        {
+          name: 'Mixquic',
+          yearVisited: [2022],
+          "latitude": 19.2266531,
+	        "longitude": -98.9659399,
+        },
+        {
+          name: 'Puebla',
+          yearVisited: [2022],
+          "latitude": 19.0414398,
+	        "longitude": -98.2062727,
         },
       ],
     },

@@ -379,6 +379,18 @@ dsServices.service('dsServices', function () {
           latitude: 18.9848015,
           longitude: -99.0930528,
         },
+        {
+          name: 'Mixquic',
+          yearVisited: [2022],
+          "latitude": 19.2266531,
+	        "longitude": -98.9659399,
+        },
+        {
+          name: 'Puebla',
+          yearVisited: [2022],
+          "latitude": 19.0414398,
+	        "longitude": -98.2062727,
+        },
       ],
     },
     {
