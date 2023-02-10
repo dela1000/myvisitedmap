@@ -216,13 +216,13 @@ dsServices.service('dsServices', function () {
         },
         {
           name: 'St. Louis',
-          yearVisited: [2021],
+          yearVisited: [2021, 2022],
           latitude: 38.6270025,
           longitude: -90.19940419999999,
         },
         {
           name: 'Fredericktown',
-          yearVisited: [2021],
+          yearVisited: [2021, 2022],
           latitude: 37.55977540000001,
           longitude: -90.2940069,
         },
@@ -543,9 +543,21 @@ dsServices.service('dsServices', function () {
       cities: [
         {
           name: 'Vancouver',
-          yearVisited: [2013],
+          yearVisited: [2013, 2022],
           latitude: 49.2827291,
           longitude: -123.1207375,
+        },
+        {
+          name: 'Victoria',
+          yearVisited: [2023],
+          "latitude": 48.4284207,
+          "longitude": -123.3656444,
+        },
+        {
+          name: 'Calgary',
+          yearVisited: [2023],
+          latitude: 51.04473309999999,
+          longitude: -114.0718831,
         },
       ],
     },
