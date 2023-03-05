@@ -548,6 +548,12 @@ dsServices.service('dsServices', function () {
           longitude: -123.1207375,
         },
         {
+          name: 'Lake Louise',
+          yearVisited: [2023],
+          "latitude": 51.4253705,
+          "longitude": -116.1772552,
+        },
+        {
           name: 'Victoria',
           yearVisited: [2023],
           "latitude": 48.4284207,
@@ -558,6 +564,12 @@ dsServices.service('dsServices', function () {
           yearVisited: [2023],
           latitude: 51.04473309999999,
           longitude: -114.0718831,
+        },
+        {
+          name: 'Toronto',
+          yearVisited: [2023],
+          "latitude": 43.653226,
+          "longitude": -79.3831843,
         },
       ],
     },
