@@ -115,6 +115,21 @@ rndServices.service('rndServices', function () {
       ],
     },
     {
+      id: 'HK',
+      showAsSelected: true,
+      name: 'Honk Kong',
+      countryCode: flagClass + 'HK',
+      year: 2019,
+      cities: [
+        {
+          name: "Honk Kong",
+          yearVisited: [2019],
+          latitude: 22.3193039,
+          longitude: 114.1693611,
+        },
+      ],
+    },
+    {
       id: 'IE',
       showAsSelected: true,
       name: 'Ireland',
@@ -460,7 +475,7 @@ rndServices.service('rndServices', function () {
       id: 'CA',
       showAsSelected: true,
       name: 'Canada',
-      year: 2013,
+      year: 2022,
       countryCode: flagClass + 'CA',
       cities: [
         {
@@ -492,6 +507,81 @@ rndServices.service('rndServices', function () {
           yearVisited: [2023],
           "latitude": 43.653226,
           "longitude": -79.3831843,
+        },
+        {
+          name: 'Montreal',
+          yearVisited: [2023],
+          "latitude": 45.5018869,
+          "longitude": -73.56739189999999,
+        },
+      ],
+    },
+    {
+      id: 'CO',
+      showAsSelected: true,
+      name: 'Colombia',
+      year: 2023,
+      countryCode: flagClass + 'CO',
+      cities: [
+        {
+          name: 'Bogota',
+          yearVisited: [2023],
+          latitude: 4.710988599999999,
+          longitude: -74.072092,
+        },
+        {
+          name: 'Cartagena',
+          yearVisited: [2023],
+          latitude: 10.3910485,
+          longitude: -75.4794257,
+        },
+        {
+          name: 'Zipaquira',
+          yearVisited: [2023],
+          latitude: 5.021476,
+          longitude: -73.990955,
+        },
+      ],
+    },
+    {
+      id: 'AR',
+      showAsSelected: true,
+      name: 'Argentina',
+      year: 2023,
+      countryCode: flagClass + 'AR',
+      cities: [
+        {
+          name: 'Buenos Aires',
+          yearVisited: [2023],
+          latitude: -34.6036844,
+          longitude: -58.3815591,
+        },
+        {
+          name: 'El Calafate',
+          yearVisited: [2023],
+          latitude: -50.337969,
+          longitude: -72.2647981,
+        },
+        {
+          name: 'Mendoza',
+          yearVisited: [2023],
+          latitude: null,
+          longitude: null,
+        },
+      ],
+    },
+    {
+      id: 'EC',
+      showAsSelected: true,
+      name: 'Ecuador',
+      year: 2023,
+      countryCode: flagClass + 'EC',
+      cities: [
+        {
+          name: 'Quito',
+          yearVisited: [2023],
+          latitude: -0.1806532,
+          longitude: -78.4678382,
         },
       ],
     },

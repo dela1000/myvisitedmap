@@ -51,7 +51,7 @@ dsServices.service('dsServices', function () {
       cities: [
         {
           name: 'Bogota',
-          yearVisited: [1981, 2006, 2018],
+          yearVisited: [1981, 2006, 2018, 2023],
           latitude: 4.710988599999999,
           longitude: -74.072092,
         },
@@ -345,7 +345,7 @@ dsServices.service('dsServices', function () {
         },
         {
           name: 'Rosarito',
-          yearVisited: [2006],
+          yearVisited: [2007],
           latitude: 32.3661011,
           longitude: -117.0617553,
         },
@@ -383,13 +383,13 @@ dsServices.service('dsServices', function () {
           name: 'Mixquic',
           yearVisited: [2022],
           "latitude": 19.2266531,
-	        "longitude": -98.9659399,
+          "longitude": -98.9659399,
         },
         {
           name: 'Puebla',
           yearVisited: [2022],
           "latitude": 19.0414398,
-	        "longitude": -98.2062727,
+          "longitude": -98.2062727,
         },
       ],
     },
@@ -571,6 +571,12 @@ dsServices.service('dsServices', function () {
           "latitude": 43.653226,
           "longitude": -79.3831843,
         },
+        {
+          name: 'Montreal',
+          yearVisited: [2023],
+          "latitude": 45.5018869,
+          "longitude": -73.56739189999999,
+        },
       ],
     },
     {
@@ -713,6 +719,12 @@ dsServices.service('dsServices', function () {
           longitude: -5.833954299999999,
         },
         {
+          name: 'Chefchaouen',
+          yearVisited: [2017],
+          latitude: 35.168796,
+          longitude: -5.268364099999999,
+        },
+        {
           name: 'Fes',
           yearVisited: [2017],
           latitude: 34.0181246,
@@ -723,6 +735,12 @@ dsServices.service('dsServices', function () {
           yearVisited: [2017],
           latitude: 31.0801676,
           longitude: -4.013361,
+        },
+        {
+          name: 'Ait Ibriren',
+          yearVisited: [2017],
+          latitude: 31.4384365,
+          longitude: -6.0090406,
         },
         {
           name: 'Marrakesh',
@@ -1258,6 +1276,21 @@ dsServices.service('dsServices', function () {
       ],
     },
     {
+      id: 'HK',
+      showAsSelected: true,
+      name: 'Honk Kong',
+      countryCode: flagClass + 'HK',
+      year: 2019,
+      cities: [
+        {
+          name: "Honk Kong",
+          yearVisited: [2019],
+          latitude: 22.3193039,
+          longitude: 114.1693611,
+        },
+      ],
+    },
+    {
       id: 'GE',
       showAsSelected: true,
       name: 'Georgia',
@@ -1347,6 +1380,48 @@ dsServices.service('dsServices', function () {
           yearVisited: [2022],
           latitude: -1.116667,
           longitude: 29.7,
+        },
+      ],
+    },
+    {
+      id: 'AR',
+      showAsSelected: true,
+      name: 'Argentina',
+      year: 2023,
+      countryCode: flagClass + 'AR',
+      cities: [
+        {
+          name: 'Buenos Aires',
+          yearVisited: [2023],
+          latitude: -34.6036844,
+          longitude: -58.3815591,
+        },
+        {
+          name: 'El Calafate',
+          yearVisited: [2023],
+          latitude: -50.337969,
+          longitude: -72.2647981,
+        },
+        {
+          name: 'Mendoza',
+          yearVisited: [2023],
+          latitude: -32.8894587,
+          longitude: -68.8458386,
+        },
+      ],
+    },
+    {
+      id: 'EC',
+      showAsSelected: true,
+      name: 'Ecuador',
+      year: 2023,
+      countryCode: flagClass + 'EC',
+      cities: [
+        {
+          name: 'Quito',
+          yearVisited: [2023],
+          latitude: -0.1806532,
+          longitude: -78.4678382,
         },
       ],
     },
