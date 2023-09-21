@@ -1423,6 +1423,12 @@ dsServices.service('dsServices', function () {
           latitude: -0.1806532,
           longitude: -78.4678382,
         },
+        {
+          name: 'Galapagos Islands',
+          yearVisited: [2023],
+          latitude: -0.3831059167914707,
+          longitude: -90.42333442620028,
+        },
       ],
     },
   ];

@@ -73,7 +73,7 @@ app.controller(
         },
         projection: 'mercator',
         panEventsEnabled: true,
-        backgroundColor: '#535364',
+        backgroundColor: '#e1e1e1',
         backgroundAlpha: 1,
         zoomControl: {
           zoomControlEnabled: true,
@@ -88,7 +88,7 @@ app.controller(
           autoZoom: true,
           selectedColor: '#9BABB2', //Countries visited
           outlineColor: '#000000', //Countries outlines
-          color: '#F4F7F0', //Countries NOT Visited
+          color: '#cccccc', //Countries NOT Visited
           rollOverColor: '#F2EEE3', //Hover over countries NOT visited
           rollOverOutlineColor: '#000000', //Hover over countries outline NOT visited
         },
