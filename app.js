@@ -69,20 +69,20 @@ app.controller(
           rollOverScale: 3,
           selectedScale: 3,
           selectedColor: '#089282',
-          color: '#13564e',
+          color: '#13564e'
         },
         projection: 'mercator',
         panEventsEnabled: true,
         backgroundColor: '#e1e1e1',
         backgroundAlpha: 1,
         zoomControl: {
-          zoomControlEnabled: true,
+          zoomControlEnabled: true
         },
         dataProvider: {
           map: 'worldHigh',
           getAreasFromMap: true,
           images: cityDataArray,
-          areas: dataSelected,
+          areas: dataSelected
         },
         areasSettings: {
           autoZoom: true,
@@ -90,8 +90,8 @@ app.controller(
           outlineColor: '#000000', //Countries outlines
           color: '#cccccc', //Countries NOT Visited
           rollOverColor: '#F2EEE3', //Hover over countries NOT visited
-          rollOverOutlineColor: '#000000', //Hover over countries outline NOT visited
-        },
+          rollOverOutlineColor: '#000000' //Hover over countries outline NOT visited
+        }
       });
     };
 
@@ -124,5 +124,5 @@ app.controller(
     $scope.switchData();
     //Only works after adding a city to the countries services with null lat/long values
     $scope.getLatLngData();
-  },
+  }
 );

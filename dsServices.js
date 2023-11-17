@@ -20,27 +20,27 @@ dsServices.service('dsServices', function () {
           name: 'Caja Seca',
           yearVisited: [1981],
           latitude: 9.1518116,
-          longitude: -71.08246129999999,
+          longitude: -71.08246129999999
         },
         {
           name: 'Caracas',
           yearVisited: [1984],
           latitude: 10.4805937,
-          longitude: -66.90360629999999,
+          longitude: -66.90360629999999
         },
         {
           name: 'Turmero',
           yearVisited: [1986],
           latitude: 10.2145621,
-          longitude: -67.4874107,
+          longitude: -67.4874107
         },
         {
           name: 'Maracay',
           yearVisited: [1986],
           latitude: 10.2441931,
-          longitude: -67.60661640000001,
-        },
-      ],
+          longitude: -67.60661640000001
+        }
+      ]
     },
     {
       id: 'CO',
@@ -53,45 +53,45 @@ dsServices.service('dsServices', function () {
           name: 'Bogota',
           yearVisited: [1981, 2006, 2018, 2023],
           latitude: 4.710988599999999,
-          longitude: -74.072092,
+          longitude: -74.072092
         },
         {
           name: 'Cartagena',
           yearVisited: [1994, 2017],
           latitude: 10.3910485,
-          longitude: -75.4794257,
+          longitude: -75.4794257
         },
         {
           name: 'Barranquilla',
           yearVisited: [1994],
           latitude: 11.0041072,
-          longitude: -74.80698129999999,
+          longitude: -74.80698129999999
         },
         {
           name: 'Medellin',
           yearVisited: [2018],
           latitude: 6.244203,
-          longitude: -75.5812119,
+          longitude: -75.5812119
         },
         {
           name: 'Guatape',
           yearVisited: [2018],
           latitude: 6.231136999999999,
-          longitude: -75.15346699999999,
+          longitude: -75.15346699999999
         },
         {
           name: 'Zipaquira',
           yearVisited: [2006, 2018],
           latitude: 5.021476,
-          longitude: -73.990955,
+          longitude: -73.990955
         },
         {
           name: 'Manta',
           yearVisited: [2018],
           latitude: 5.008804,
-          longitude: -73.541383,
-        },
-      ],
+          longitude: -73.541383
+        }
+      ]
     },
     {
       id: 'US',
@@ -104,147 +104,147 @@ dsServices.service('dsServices', function () {
           name: 'Los Angeles',
           yearVisited: [1994],
           latitude: 34.0522342,
-          longitude: -118.2436849,
+          longitude: -118.2436849
         },
         {
           name: 'Washington D.C.',
           yearVisited: [1994],
           latitude: 38.9071923,
-          longitude: -77.0368707,
+          longitude: -77.0368707
         },
         {
           name: 'San Diego',
           yearVisited: [1995],
           latitude: 32.715738,
-          longitude: -117.1610838,
+          longitude: -117.1610838
         },
         {
           name: 'Las Vegas',
           yearVisited: [1995],
           latitude: 36.1699412,
-          longitude: -115.1398296,
+          longitude: -115.1398296
         },
         {
           name: 'Palm Springs',
           yearVisited: [1995],
           latitude: 33.8302961,
-          longitude: -116.5452921,
+          longitude: -116.5452921
         },
         {
           name: 'San Francisco',
           yearVisited: [1998],
           latitude: 37.7749295,
-          longitude: -122.4194155,
+          longitude: -122.4194155
         },
         {
           name: 'Houston',
           yearVisited: [2000],
           latitude: 29.7604267,
-          longitude: -95.3698028,
+          longitude: -95.3698028
         },
         {
           name: 'Mammoth Lakes',
           yearVisited: [2000],
           latitude: 37.648546,
-          longitude: -118.972079,
+          longitude: -118.972079
         },
         {
           name: 'Memphis',
           yearVisited: [2007],
           latitude: 35.1495343,
-          longitude: -90.0489801,
+          longitude: -90.0489801
         },
         {
           name: 'Nashville',
           yearVisited: [2007],
           latitude: 36.1626638,
-          longitude: -86.7816016,
+          longitude: -86.7816016
         },
         {
           name: 'Lynchburg',
           yearVisited: [2007],
           latitude: 35.2830242,
-          longitude: -86.3740205,
+          longitude: -86.3740205
         },
         {
           name: 'Chicago',
           yearVisited: [2011],
           latitude: 41.8781136,
-          longitude: -87.6297982,
+          longitude: -87.6297982
         },
         {
           name: 'Seattle',
           yearVisited: [2013],
           latitude: 47.6062095,
-          longitude: -122.3320708,
+          longitude: -122.3320708
         },
         {
           name: 'New York City',
           yearVisited: [2014, 2017],
           latitude: 40.7127753,
-          longitude: -74.0059728,
+          longitude: -74.0059728
         },
         {
           name: 'Miami',
           yearVisited: [2016],
           latitude: 25.7616798,
-          longitude: -80.1917902,
+          longitude: -80.1917902
         },
         {
           name: 'Cape Canaveral',
           yearVisited: [2016],
           latitude: 28.4740089,
-          longitude: -80.5771737,
+          longitude: -80.5771737
         },
         {
           name: 'Austin',
           yearVisited: [2016],
           latitude: 30.267153,
-          longitude: -97.7430608,
+          longitude: -97.7430608
         },
         {
           name: 'Dallas',
           yearVisited: [2016],
           latitude: 32.7766642,
-          longitude: -96.79698789999999,
+          longitude: -96.79698789999999
         },
         {
           name: 'Asheville',
           yearVisited: [2017],
           latitude: 35.5950581,
-          longitude: -82.5514869,
+          longitude: -82.5514869
         },
         {
           name: 'St. Louis',
           yearVisited: [2021, 2022],
           latitude: 38.6270025,
-          longitude: -90.19940419999999,
+          longitude: -90.19940419999999
         },
         {
           name: 'Fredericktown',
           yearVisited: [2021, 2022],
           latitude: 37.55977540000001,
-          longitude: -90.2940069,
+          longitude: -90.2940069
         },
         {
           name: 'Portland',
           yearVisited: [2021],
           latitude: 45.5051064,
-          longitude: -122.6750261,
+          longitude: -122.6750261
         },
         {
           name: 'Reno',
           yearVisited: [2022],
           latitude: 39.529919,
-          longitude: -119.8142691,
+          longitude: -119.8142691
         },
         {
           name: 'Lake Tahoe',
           yearVisited: [2022],
           latitude: 39.0968493,
-          longitude: -120.0323507,
-        },
-      ],
+          longitude: -120.0323507
+        }
+      ]
     },
     {
       id: 'GB',
@@ -257,33 +257,33 @@ dsServices.service('dsServices', function () {
           name: 'London',
           yearVisited: [2002, 2018],
           latitude: 51.5073509,
-          longitude: -0.1277583,
+          longitude: -0.1277583
         },
         {
           name: 'Widsor Castle',
           yearVisited: [2002],
           latitude: 51.483894,
-          longitude: -0.6044027,
+          longitude: -0.6044027
         },
         {
           name: 'Bath',
           yearVisited: [2002],
           latitude: 51.375801,
-          longitude: -2.3599039,
+          longitude: -2.3599039
         },
         {
           name: 'Stonehenge',
           yearVisited: [2002],
           latitude: 51.17888199999999,
-          longitude: -1.826215,
+          longitude: -1.826215
         },
         {
           name: 'Bristol',
           yearVisited: [2006, 2018],
           latitude: 51.454513,
-          longitude: -2.58791,
-        },
-      ],
+          longitude: -2.58791
+        }
+      ]
     },
     {
       id: 'FR',
@@ -296,33 +296,33 @@ dsServices.service('dsServices', function () {
           name: 'Paris',
           yearVisited: [2002],
           latitude: 48.856614,
-          longitude: 2.3522219,
+          longitude: 2.3522219
         },
         {
           name: 'Nice',
           yearVisited: [2006],
           latitude: 43.7101728,
-          longitude: 7.261953200000001,
+          longitude: 7.261953200000001
         },
         {
           name: 'Antibes',
           yearVisited: [2006],
           latitude: 43.58041799999999,
-          longitude: 7.125102,
+          longitude: 7.125102
         },
         {
           name: 'Cannes',
           yearVisited: [2006],
           latitude: 43.552847,
-          longitude: 7.017369,
+          longitude: 7.017369
         },
         {
           name: 'Annecy',
           yearVisited: [2019],
           latitude: 45.899247,
-          longitude: 6.129384,
-        },
-      ],
+          longitude: 6.129384
+        }
+      ]
     },
     {
       id: 'MX',
@@ -335,63 +335,63 @@ dsServices.service('dsServices', function () {
           name: 'Mazatlan',
           yearVisited: [2006],
           latitude: 23.2494148,
-          longitude: -106.4111425,
+          longitude: -106.4111425
         },
         {
           name: 'La Ticla',
           yearVisited: [2006],
           latitude: 18.4543533,
-          longitude: -103.5541312,
+          longitude: -103.5541312
         },
         {
           name: 'Rosarito',
           yearVisited: [2007],
           latitude: 32.3661011,
-          longitude: -117.0617553,
+          longitude: -117.0617553
         },
         {
           name: 'Mexico City',
           yearVisited: [2020, 2021, 2022],
           latitude: 19.4326077,
-          longitude: -99.133208,
+          longitude: -99.133208
         },
         {
           name: 'Oaxaca',
           yearVisited: [2021],
           latitude: 17.0731842,
-          longitude: -96.7265889,
+          longitude: -96.7265889
         },
         {
           name: 'Playa del Carmen',
           yearVisited: [2021],
           latitude: 20.6295586,
-          longitude: -87.0738851,
+          longitude: -87.0738851
         },
         {
           name: 'Merida',
           yearVisited: [2021],
           latitude: 20.9673702,
-          longitude: -89.5925857,
+          longitude: -89.5925857
         },
         {
           name: 'Tepoztlan',
           yearVisited: [2021],
           latitude: 18.9848015,
-          longitude: -99.0930528,
+          longitude: -99.0930528
         },
         {
           name: 'Mixquic',
           yearVisited: [2022],
-          "latitude": 19.2266531,
-          "longitude": -98.9659399,
+          latitude: 19.2266531,
+          longitude: -98.9659399
         },
         {
           name: 'Puebla',
           yearVisited: [2022],
-          "latitude": 19.0414398,
-          "longitude": -98.2062727,
-        },
-      ],
+          latitude: 19.0414398,
+          longitude: -98.2062727
+        }
+      ]
     },
     {
       id: 'IT',
@@ -404,51 +404,51 @@ dsServices.service('dsServices', function () {
           name: 'Rome',
           yearVisited: [2006, 2019, 2020],
           latitude: 41.9027835,
-          longitude: 12.4963655,
+          longitude: 12.4963655
         },
         {
           name: 'Venice',
           yearVisited: [2006],
           latitude: 45.4408474,
-          longitude: 12.3155151,
+          longitude: 12.3155151
         },
         {
           name: 'Verona',
           yearVisited: [2006],
           latitude: 45.43838419999999,
-          longitude: 10.9916215,
+          longitude: 10.9916215
         },
         {
           name: 'Florence',
           yearVisited: [2006],
           latitude: 43.7695604,
-          longitude: 11.2558136,
+          longitude: 11.2558136
         },
         {
           name: 'Naples',
           yearVisited: [2019],
           latitude: 40.8517983,
-          longitude: 14.26812,
+          longitude: 14.26812
         },
         {
           name: 'Pompeii',
           yearVisited: [2019],
           latitude: 40.7461572,
-          longitude: 14.4989344,
+          longitude: 14.4989344
         },
         {
           name: 'Milan',
           yearVisited: [2020],
           latitude: 45.4642035,
-          longitude: 9.189982,
+          longitude: 9.189982
         },
         {
           name: 'Gerano',
           yearVisited: [2022],
           latitude: 41.93372189999999,
-          longitude: 12.9934362,
-        },
-      ],
+          longitude: 12.9934362
+        }
+      ]
     },
     {
       id: 'VA',
@@ -461,9 +461,9 @@ dsServices.service('dsServices', function () {
           name: 'Vatican City',
           yearVisited: [2006],
           latitude: 41.902916,
-          longitude: 12.453389,
-        },
-      ],
+          longitude: 12.453389
+        }
+      ]
     },
     {
       id: 'MC',
@@ -476,9 +476,9 @@ dsServices.service('dsServices', function () {
           name: 'Monaco',
           yearVisited: [2006],
           latitude: 43.73841760000001,
-          longitude: 7.424615799999999,
-        },
-      ],
+          longitude: 7.424615799999999
+        }
+      ]
     },
     {
       id: 'NL',
@@ -491,15 +491,15 @@ dsServices.service('dsServices', function () {
           name: 'Amsterdam',
           yearVisited: [2006, 2021],
           latitude: 52.3702157,
-          longitude: 4.895167900000001,
+          longitude: 4.895167900000001
         },
         {
           name: 'Delft',
           yearVisited: [2021],
           latitude: 52.01157689999999,
-          longitude: 4.3570677,
-        },
-      ],
+          longitude: 4.3570677
+        }
+      ]
     },
     {
       id: 'DE',
@@ -512,27 +512,27 @@ dsServices.service('dsServices', function () {
           name: 'Berlin',
           yearVisited: [2006],
           latitude: 52.52000659999999,
-          longitude: 13.404954,
+          longitude: 13.404954
         },
         {
           name: 'Frankfurt',
           yearVisited: [2018],
           latitude: 50.1109221,
-          longitude: 8.6821267,
+          longitude: 8.6821267
         },
         {
           name: 'Mainz',
           yearVisited: [2018],
           latitude: 49.9928617,
-          longitude: 8.2472526,
+          longitude: 8.2472526
         },
         {
           name: 'Munich',
           yearVisited: [2019],
           latitude: 48.1351253,
-          longitude: 11.5819805,
-        },
-      ],
+          longitude: 11.5819805
+        }
+      ]
     },
     {
       id: 'CA',
@@ -545,39 +545,39 @@ dsServices.service('dsServices', function () {
           name: 'Vancouver',
           yearVisited: [2013, 2022],
           latitude: 49.2827291,
-          longitude: -123.1207375,
+          longitude: -123.1207375
         },
         {
           name: 'Lake Louise',
           yearVisited: [2023],
-          "latitude": 51.4253705,
-          "longitude": -116.1772552,
+          latitude: 51.4253705,
+          longitude: -116.1772552
         },
         {
           name: 'Victoria',
           yearVisited: [2023],
-          "latitude": 48.4284207,
-          "longitude": -123.3656444,
+          latitude: 48.4284207,
+          longitude: -123.3656444
         },
         {
           name: 'Calgary',
           yearVisited: [2023],
           latitude: 51.04473309999999,
-          longitude: -114.0718831,
+          longitude: -114.0718831
         },
         {
           name: 'Toronto',
           yearVisited: [2023],
-          "latitude": 43.653226,
-          "longitude": -79.3831843,
+          latitude: 43.653226,
+          longitude: -79.3831843
         },
         {
           name: 'Montreal',
           yearVisited: [2023],
-          "latitude": 45.5018869,
-          "longitude": -73.56739189999999,
-        },
-      ],
+          latitude: 45.5018869,
+          longitude: -73.56739189999999
+        }
+      ]
     },
     {
       id: 'HR',
@@ -590,27 +590,27 @@ dsServices.service('dsServices', function () {
           name: 'Split',
           yearVisited: [2017],
           latitude: 43.5081323,
-          longitude: 16.4401935,
+          longitude: 16.4401935
         },
         {
           name: 'Dubrovnik',
           yearVisited: [2017, 2019],
           latitude: 42.65066059999999,
-          longitude: 18.0944238,
+          longitude: 18.0944238
         },
         {
           name: 'Sinj',
           yearVisited: [2017],
           latitude: 43.702943,
-          longitude: 16.6375286,
+          longitude: 16.6375286
         },
         {
           name: 'Zagreb',
           yearVisited: [2019],
           latitude: 45.8150108,
-          longitude: 15.9819189,
-        },
-      ],
+          longitude: 15.9819189
+        }
+      ]
     },
     {
       id: 'CZ',
@@ -623,33 +623,33 @@ dsServices.service('dsServices', function () {
           name: 'Prague',
           yearVisited: [2017, 2018, 2022],
           latitude: 50.0755381,
-          longitude: 14.4378005,
+          longitude: 14.4378005
         },
         {
           name: 'Plzeň',
           yearVisited: [2017],
           latitude: 49.7384314,
-          longitude: 13.3736371,
+          longitude: 13.3736371
         },
         {
           name: 'Karlštejn',
           yearVisited: [2017],
           latitude: 49.9395043,
-          longitude: 14.1880461,
+          longitude: 14.1880461
         },
         {
           name: 'Kutná Hora',
           yearVisited: [2017],
           latitude: 49.95243139999999,
-          longitude: 15.2686536,
+          longitude: 15.2686536
         },
         {
           name: 'Český Krumlov',
           yearVisited: [2022],
           latitude: 48.8127354,
-          longitude: 14.3174657,
-        },
-      ],
+          longitude: 14.3174657
+        }
+      ]
     },
     {
       id: 'PT',
@@ -662,33 +662,33 @@ dsServices.service('dsServices', function () {
           name: 'Lisbon',
           yearVisited: [2017, 2018],
           latitude: 38.7222524,
-          longitude: -9.1393366,
+          longitude: -9.1393366
         },
         {
           name: 'Porto',
           yearVisited: [2017, 2021],
           latitude: 41.1579438,
-          longitude: -8.629105299999999,
+          longitude: -8.629105299999999
         },
         {
           name: 'Benagil',
           yearVisited: [2017],
           latitude: 37.0887105,
-          longitude: -8.4311101,
+          longitude: -8.4311101
         },
         {
           name: 'Lagos',
           yearVisited: [2017],
           latitude: 37.1027881,
-          longitude: -8.6730275,
+          longitude: -8.6730275
         },
         {
           name: 'Douro Valley',
           yearVisited: [2021],
           latitude: 41.17133889999999,
-          longitude: -7.802805800000001,
-        },
-      ],
+          longitude: -7.802805800000001
+        }
+      ]
     },
     {
       id: 'PL',
@@ -701,9 +701,9 @@ dsServices.service('dsServices', function () {
           name: 'Krakow',
           yearVisited: [2017],
           latitude: 50.06465009999999,
-          longitude: 19.9449799,
-        },
-      ],
+          longitude: 19.9449799
+        }
+      ]
     },
     {
       id: 'MA',
@@ -716,45 +716,45 @@ dsServices.service('dsServices', function () {
           name: 'Tangier',
           yearVisited: [2017],
           latitude: 35.7594651,
-          longitude: -5.833954299999999,
+          longitude: -5.833954299999999
         },
         {
           name: 'Chefchaouen',
           yearVisited: [2017],
           latitude: 35.168796,
-          longitude: -5.268364099999999,
+          longitude: -5.268364099999999
         },
         {
           name: 'Fes',
           yearVisited: [2017],
           latitude: 34.0181246,
-          longitude: -5.0078451,
+          longitude: -5.0078451
         },
         {
           name: 'Merzouga',
           yearVisited: [2017],
           latitude: 31.0801676,
-          longitude: -4.013361,
+          longitude: -4.013361
         },
         {
           name: 'Ait Ibriren',
           yearVisited: [2017],
           latitude: 31.4384365,
-          longitude: -6.0090406,
+          longitude: -6.0090406
         },
         {
           name: 'Marrakesh',
           yearVisited: [2017, 2019],
           latitude: 31.6294723,
-          longitude: -7.981084500000001,
+          longitude: -7.981084500000001
         },
         {
           name: 'Essaouira',
           yearVisited: [2019],
           latitude: 31.5084926,
-          longitude: -9.7595041,
-        },
-      ],
+          longitude: -9.7595041
+        }
+      ]
     },
     {
       id: 'ES',
@@ -767,45 +767,45 @@ dsServices.service('dsServices', function () {
           name: 'Barcelona',
           yearVisited: [2017],
           latitude: 41.3850639,
-          longitude: 2.1734035,
+          longitude: 2.1734035
         },
         {
           name: 'Pamplona',
           yearVisited: [2017],
           latitude: 42.812526,
-          longitude: -1.6457745,
+          longitude: -1.6457745
         },
         {
           name: 'Madrid',
           yearVisited: [2018],
           latitude: 40.4167754,
-          longitude: -3.7037902,
+          longitude: -3.7037902
         },
         {
           name: 'Seville',
           yearVisited: [2018],
           latitude: 37.3890924,
-          longitude: -5.9844589,
+          longitude: -5.9844589
         },
         {
           name: 'Granada',
           yearVisited: [2018],
           latitude: 37.1773363,
-          longitude: -3.5985571,
+          longitude: -3.5985571
         },
         {
           name: 'Valencia',
           yearVisited: [2018, 2019],
           latitude: 39.4699075,
-          longitude: -0.3762881,
+          longitude: -0.3762881
         },
         {
           name: 'Bunol',
           yearVisited: [2018],
           latitude: 39.4203436,
-          longitude: -0.7901334,
-        },
-      ],
+          longitude: -0.7901334
+        }
+      ]
     },
     {
       id: 'BG',
@@ -818,33 +818,33 @@ dsServices.service('dsServices', function () {
           name: 'Sofia',
           yearVisited: [2017, 2018],
           latitude: 42.6977082,
-          longitude: 23.3218675,
+          longitude: 23.3218675
         },
         {
           name: 'Plovdiv',
           yearVisited: [2017, 2018],
           latitude: 42.1354079,
-          longitude: 24.7452904,
+          longitude: 24.7452904
         },
         {
           name: 'Aldomirovtsi',
           yearVisited: [2018],
           latitude: 42.8480157,
-          longitude: 22.9856062,
+          longitude: 22.9856062
         },
         {
           name: 'Veliko Tarnovo',
           yearVisited: [2018],
           latitude: 43.0756739,
-          longitude: 25.6171514,
+          longitude: 25.6171514
         },
         {
           name: 'Tryavna',
           yearVisited: [2018],
           latitude: 42.87665200000001,
-          longitude: 25.4988388,
-        },
-      ],
+          longitude: 25.4988388
+        }
+      ]
     },
     {
       id: 'IL',
@@ -857,9 +857,9 @@ dsServices.service('dsServices', function () {
           name: 'Tel Aviv',
           yearVisited: [2017],
           latitude: 32.0852999,
-          longitude: 34.78176759999999,
-        },
-      ],
+          longitude: 34.78176759999999
+        }
+      ]
     },
     {
       id: 'TR',
@@ -872,9 +872,9 @@ dsServices.service('dsServices', function () {
           name: 'Istanbul',
           yearVisited: [2017],
           latitude: 41.0082376,
-          longitude: 28.9783589,
-        },
-      ],
+          longitude: 28.9783589
+        }
+      ]
     },
     {
       id: 'VN',
@@ -887,15 +887,15 @@ dsServices.service('dsServices', function () {
           name: 'Hanoi',
           yearVisited: [2017],
           latitude: 21.0277644,
-          longitude: 105.8341598,
+          longitude: 105.8341598
         },
         {
           name: 'Ha Long Bay',
           yearVisited: [2017],
           latitude: 20.9100512,
-          longitude: 107.1839024,
-        },
-      ],
+          longitude: 107.1839024
+        }
+      ]
     },
     {
       id: 'TH',
@@ -908,27 +908,27 @@ dsServices.service('dsServices', function () {
           name: 'Chiang Mai',
           yearVisited: [2017],
           latitude: 18.7060641,
-          longitude: 98.9817163,
+          longitude: 98.9817163
         },
         {
           name: 'Pai',
           yearVisited: [2017],
           latitude: 19.3582191,
-          longitude: 98.44048629999999,
+          longitude: 98.44048629999999
         },
         {
           name: 'Chiang Rai',
           yearVisited: [2017],
           latitude: 19.9104798,
-          longitude: 99.840576,
+          longitude: 99.840576
         },
         {
           name: 'Doi Inthanon',
           yearVisited: [2017],
           latitude: 18.5880431,
-          longitude: 98.4870612,
-        },
-      ],
+          longitude: 98.4870612
+        }
+      ]
     },
     {
       id: 'JP',
@@ -941,45 +941,45 @@ dsServices.service('dsServices', function () {
           name: 'Kyoto',
           yearVisited: [2017],
           latitude: 35.0116363,
-          longitude: 135.7680294,
+          longitude: 135.7680294
         },
         {
           name: 'Kobe',
           yearVisited: [2017],
           latitude: 34.690083,
-          longitude: 135.1955112,
+          longitude: 135.1955112
         },
         {
           name: 'Osaka',
           yearVisited: [2017],
           latitude: 34.6937378,
-          longitude: 135.5021651,
+          longitude: 135.5021651
         },
         {
           name: 'Tokyo',
           yearVisited: [2017],
           latitude: 35.6894875,
-          longitude: 139.6917064,
+          longitude: 139.6917064
         },
         {
           name: 'Hiroshima',
           yearVisited: [2017],
           latitude: 34.3852029,
-          longitude: 132.4552927,
+          longitude: 132.4552927
         },
         {
           name: 'Miyajima',
           yearVisited: [2017],
           latitude: 34.2796599,
-          longitude: 132.3114041,
+          longitude: 132.3114041
         },
         {
           name: 'Toyama',
           yearVisited: [2017],
           latitude: 36.6959518,
-          longitude: 137.2136768,
-        },
-      ],
+          longitude: 137.2136768
+        }
+      ]
     },
     {
       id: 'MY',
@@ -992,21 +992,21 @@ dsServices.service('dsServices', function () {
           name: 'Kuala Lumpur',
           yearVisited: [2017],
           latitude: 3.139003,
-          longitude: 101.686855,
+          longitude: 101.686855
         },
         {
           name: 'Panang',
           yearVisited: [2017],
           latitude: 5.2999806,
-          longitude: 100.2743579,
+          longitude: 100.2743579
         },
         {
           name: 'Langkawi',
           yearVisited: [2017],
           latitude: 6.35,
-          longitude: 99.8,
-        },
-      ],
+          longitude: 99.8
+        }
+      ]
     },
     {
       id: 'PE',
@@ -1019,27 +1019,27 @@ dsServices.service('dsServices', function () {
           name: 'Lima',
           yearVisited: [2017],
           latitude: -12.0463731,
-          longitude: -77.042754,
+          longitude: -77.042754
         },
         {
           name: 'Cusco',
           yearVisited: [2017],
           latitude: -13.53195,
-          longitude: -71.96746259999999,
+          longitude: -71.96746259999999
         },
         {
           name: 'Aguas Calientes',
           yearVisited: [2017],
           latitude: -13.1547062,
-          longitude: -72.5254412,
+          longitude: -72.5254412
         },
         {
           name: 'Machu Picchu',
           yearVisited: [2017],
           latitude: -13.53195,
-          longitude: -71.96746259999999,
-        },
-      ],
+          longitude: -71.96746259999999
+        }
+      ]
     },
     {
       id: 'GR',
@@ -1052,21 +1052,21 @@ dsServices.service('dsServices', function () {
           name: 'Athens',
           yearVisited: [2018],
           latitude: 37.9838096,
-          longitude: 23.7275388,
+          longitude: 23.7275388
         },
         {
           name: 'Agistri',
           yearVisited: [2018],
           latitude: 37.6890809,
-          longitude: 23.3406758,
+          longitude: 23.3406758
         },
         {
           name: 'Delphi',
           yearVisited: [2018],
           latitude: 38.4823868,
-          longitude: 22.5009699,
-        },
-      ],
+          longitude: 22.5009699
+        }
+      ]
     },
     {
       id: 'RS',
@@ -1079,15 +1079,15 @@ dsServices.service('dsServices', function () {
           name: 'Belgrade',
           yearVisited: [2018],
           latitude: 44.786568,
-          longitude: 20.4489216,
+          longitude: 20.4489216
         },
         {
           name: 'Novi Sad',
           yearVisited: [2018],
           latitude: 45.2671352,
-          longitude: 19.8335496,
-        },
-      ],
+          longitude: 19.8335496
+        }
+      ]
     },
     {
       id: 'RO',
@@ -1100,45 +1100,45 @@ dsServices.service('dsServices', function () {
           name: 'Bucharest',
           yearVisited: [2018, 2019],
           latitude: 44.4267674,
-          longitude: 26.1025384,
+          longitude: 26.1025384
         },
         {
           name: 'Sighisoara',
           yearVisited: [2018],
           latitude: 46.2197025,
-          longitude: 24.7963878,
+          longitude: 24.7963878
         },
         {
           name: 'Cluj',
           yearVisited: [2018],
           latitude: 46.7712101,
-          longitude: 23.6236353,
+          longitude: 23.6236353
         },
         {
           name: 'Alba Iulia',
           yearVisited: [2018],
           latitude: 46.07327249999999,
-          longitude: 23.5804886,
+          longitude: 23.5804886
         },
         {
           name: 'Sibiu',
           yearVisited: [2018],
           latitude: 45.7935607,
-          longitude: 24.1212945,
+          longitude: 24.1212945
         },
         {
           name: 'Bran',
           yearVisited: [2018, 2019],
           latitude: 45.51919179999999,
-          longitude: 25.3696831,
+          longitude: 25.3696831
         },
         {
           name: 'Brasov',
           yearVisited: [2018, 2019],
           latitude: 45.6426802,
-          longitude: 25.5887252,
-        },
-      ],
+          longitude: 25.5887252
+        }
+      ]
     },
     {
       id: 'EG',
@@ -1151,27 +1151,27 @@ dsServices.service('dsServices', function () {
           name: 'Giza',
           yearVisited: [2019],
           latitude: 30.0130557,
-          longitude: 31.2088526,
+          longitude: 31.2088526
         },
         {
           name: 'Saqqara',
           yearVisited: [2019],
           latitude: 29.8760704,
-          longitude: 31.2102537,
+          longitude: 31.2102537
         },
         {
           name: 'Memphis',
           yearVisited: [2019],
           latitude: 29.849533,
-          longitude: 31.254126,
+          longitude: 31.254126
         },
         {
           name: 'Cairo',
           yearVisited: [2019, 2022],
           latitude: 30.0444196,
-          longitude: 31.2357116,
-        },
-      ],
+          longitude: 31.2357116
+        }
+      ]
     },
     {
       id: 'IE',
@@ -1184,27 +1184,27 @@ dsServices.service('dsServices', function () {
           name: 'Dublin',
           yearVisited: [2019, 2020],
           latitude: 53.3498053,
-          longitude: -6.2603097,
+          longitude: -6.2603097
         },
         {
           name: 'Cork',
           yearVisited: [2019],
           latitude: 51.8985143,
-          longitude: -8.4756035,
+          longitude: -8.4756035
         },
         {
           name: 'Galway',
           yearVisited: [2019],
           latitude: 53.270668,
-          longitude: -9.0567905,
+          longitude: -9.0567905
         },
         {
           name: 'Sixmilebridge',
           yearVisited: [2020],
           latitude: 52.7436246,
-          longitude: -8.777650399999999,
-        },
-      ],
+          longitude: -8.777650399999999
+        }
+      ]
     },
     {
       id: 'BA',
@@ -1217,15 +1217,15 @@ dsServices.service('dsServices', function () {
           name: 'Sarajevo',
           yearVisited: [2019],
           latitude: 43.8562586,
-          longitude: 18.4130763,
+          longitude: 18.4130763
         },
         {
           name: 'Mostar',
           yearVisited: [2019],
           latitude: 43.34377480000001,
-          longitude: 17.8077578,
-        },
-      ],
+          longitude: 17.8077578
+        }
+      ]
     },
     {
       id: 'AT',
@@ -1238,9 +1238,9 @@ dsServices.service('dsServices', function () {
           name: 'Vienna',
           yearVisited: [2019],
           latitude: 48.2081743,
-          longitude: 16.3738189,
-        },
-      ],
+          longitude: 16.3738189
+        }
+      ]
     },
     {
       id: 'ZA',
@@ -1253,27 +1253,27 @@ dsServices.service('dsServices', function () {
           name: 'Cape Town',
           yearVisited: [2019, 2021, 2022],
           latitude: -33.9248685,
-          longitude: 18.4240553,
+          longitude: 18.4240553
         },
         {
           name: 'Manyeleti',
           yearVisited: [2019],
           latitude: -24.6479532,
-          longitude: 31.5262986,
+          longitude: 31.5262986
         },
         {
           name: 'Cederberg',
           yearVisited: [2021],
           latitude: -32.5891202,
-          longitude: 19.0118251,
+          longitude: 19.0118251
         },
         {
           name: 'Kogelberg',
           yearVisited: [2022],
           latitude: -34.3321752,
-          longitude: 18.9877857,
-        },
-      ],
+          longitude: 18.9877857
+        }
+      ]
     },
     {
       id: 'HK',
@@ -1283,12 +1283,12 @@ dsServices.service('dsServices', function () {
       year: 2019,
       cities: [
         {
-          name: "Honk Kong",
+          name: 'Honk Kong',
           yearVisited: [2019],
           latitude: 22.3193039,
-          longitude: 114.1693611,
-        },
-      ],
+          longitude: 114.1693611
+        }
+      ]
     },
     {
       id: 'GE',
@@ -1301,9 +1301,9 @@ dsServices.service('dsServices', function () {
           name: "T'bilisi",
           yearVisited: [2020],
           latitude: 41.7151377,
-          longitude: 44.827096,
-        },
-      ],
+          longitude: 44.827096
+        }
+      ]
     },
     {
       id: 'HU',
@@ -1316,9 +1316,9 @@ dsServices.service('dsServices', function () {
           name: 'Budapest',
           yearVisited: [2021],
           latitude: 47.497912,
-          longitude: 19.040235,
-        },
-      ],
+          longitude: 19.040235
+        }
+      ]
     },
     {
       id: 'NA',
@@ -1331,27 +1331,27 @@ dsServices.service('dsServices', function () {
           name: 'Windhoek',
           yearVisited: [2022],
           latitude: -22.5608807,
-          longitude: 17.0657549,
+          longitude: 17.0657549
         },
         {
           name: 'Hoanib Valley',
           yearVisited: [2022],
           latitude: -19.26889495039575,
-          longitude: 13.29075839237384,
+          longitude: 13.29075839237384
         },
         {
           name: 'Etosha',
           yearVisited: [2022],
           latitude: -18.8555909,
-          longitude: 16.3293197,
+          longitude: 16.3293197
         },
         {
           name: 'Sossusvlei',
           yearVisited: [2022],
           latitude: -24.7273906,
-          longitude: 15.3423909,
-        },
-      ],
+          longitude: 15.3423909
+        }
+      ]
     },
     {
       id: 'RW',
@@ -1364,9 +1364,9 @@ dsServices.service('dsServices', function () {
           name: 'Kigali',
           yearVisited: [2022],
           latitude: -1.9440727,
-          longitude: 30.0618851,
-        },
-      ],
+          longitude: 30.0618851
+        }
+      ]
     },
     {
       id: 'UG',
@@ -1379,9 +1379,9 @@ dsServices.service('dsServices', function () {
           name: 'Bugambira',
           yearVisited: [2022],
           latitude: -1.116667,
-          longitude: 29.7,
-        },
-      ],
+          longitude: 29.7
+        }
+      ]
     },
     {
       id: 'AR',
@@ -1394,21 +1394,21 @@ dsServices.service('dsServices', function () {
           name: 'Buenos Aires',
           yearVisited: [2023],
           latitude: -34.6036844,
-          longitude: -58.3815591,
+          longitude: -58.3815591
         },
         {
           name: 'El Calafate',
           yearVisited: [2023],
           latitude: -50.337969,
-          longitude: -72.2647981,
+          longitude: -72.2647981
         },
         {
           name: 'Mendoza',
           yearVisited: [2023],
           latitude: -32.8894587,
-          longitude: -68.8458386,
-        },
-      ],
+          longitude: -68.8458386
+        }
+      ]
     },
     {
       id: 'EC',
@@ -1421,16 +1421,16 @@ dsServices.service('dsServices', function () {
           name: 'Quito',
           yearVisited: [2023],
           latitude: -0.1806532,
-          longitude: -78.4678382,
+          longitude: -78.4678382
         },
         {
           name: 'Galapagos Islands',
           yearVisited: [2023],
           latitude: -0.3831059167914707,
-          longitude: -90.42333442620028,
-        },
-      ],
-    },
+          longitude: -90.42333442620028
+        }
+      ]
+    }
   ];
 
   //Countries' data
