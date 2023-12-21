@@ -82,6 +82,18 @@
           <div class="col" />
         </div>
       </div>
+      <div>
+        <div class="row mt-2 fw-bold">
+          <div class="col-3">Year</div>
+          <div class="col">New Countries</div>
+        </div>
+        <div class="row" ng-repeat="country in countriesVisitedByYear">
+          <div class="col">{{country.year}}</div>
+          <div class="col">{{country.count}}</div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
